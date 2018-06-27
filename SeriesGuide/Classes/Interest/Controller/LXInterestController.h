@@ -1,5 +1,5 @@
 //
-//  SGMineController.h
+//  SGInterestController.h
 //  SeriesGuide
 //
 //  Created by xuan on 2018/6/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SGMineController : UIViewController
+@interface LXInterestController : UIViewController
 
 @end

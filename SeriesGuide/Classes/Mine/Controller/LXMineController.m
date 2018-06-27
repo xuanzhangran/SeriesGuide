@@ -6,13 +6,13 @@
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGMineController.h"
+#import "LXMineController.h"
 
-@interface SGMineController ()
+@interface LXMineController ()
 
 @end
 
-@implementation SGMineController
+@implementation LXMineController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

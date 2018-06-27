@@ -8,10 +8,10 @@
 
 #import "SGTabBarController.h"
 #import "SGNavigationController.h"
-#import "SGHomeController.h"
-#import "SGInterestController.h"
-#import "SGHotController.h"
-#import "SGMineController.h"
+#import "LXHomeController.h"
+#import "LXInterestController.h"
+#import "LXHotController.h"
+#import "LXMineController.h"
 #import "UIImage+Extension.h"
 
 @interface SGTabBarController ()
@@ -31,16 +31,16 @@
 
 - (void)setUpChildViewController{
     
-    SGHomeController *homeVC = [[SGHomeController alloc] init];
+    LXHomeController *homeVC = [[LXHomeController alloc] init];
     [self setUpChildController:homeVC image:[UIImage imageNamed:@"tab_movie_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_movie_selected"] title:@"影视"];
     
-    SGInterestController *interestVC = [[SGInterestController alloc] init];
+    LXInterestController *interestVC = [[LXInterestController alloc] init];
     [self setUpChildController:interestVC image:[UIImage imageNamed:@"tab_interest_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_interest_selected"] title:@"娱乐"];
     
-    SGHotController *hotVC = [[SGHotController alloc] init];
+    LXHotController *hotVC = [[LXHotController alloc] init];
     [self setUpChildController:hotVC image:[UIImage imageNamed:@"tab_hot_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_hot_selected"] title:@"热点"];
     
-    SGMineController *mineVC = [[SGMineController alloc] init];
+    LXMineController *mineVC = [[LXMineController alloc] init];
     [self setUpChildController:mineVC image:[UIImage imageNamed:@"tab_mine_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_mine_normal"] title:@"我的"];
 }
 

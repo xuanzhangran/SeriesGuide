@@ -1,5 +1,5 @@
 //
-//  SGBaseTableViewPlainController.h
+//  SGHotController.h
 //  SeriesGuide
 //
 //  Created by xuan on 2018/6/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SGBaseTableViewPlainController : UITableViewController
+@interface LXHotController : UIViewController
 
 @end

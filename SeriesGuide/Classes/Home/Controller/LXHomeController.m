@@ -6,16 +6,16 @@
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGHomeController.h"
+#import "LXHomeController.h"
 #import "SGHomeCompanyCell.h"
 #import "SGHomeCompanyModel.h"
 
-@interface SGHomeController ()
+@interface LXHomeController ()
 
 @property (nonatomic, strong) NSMutableArray *dataArray;
 @end
 
-@implementation SGHomeController
+@implementation LXHomeController
 
 - (NSArray *)dataArray{
     if (_dataArray == nil) {

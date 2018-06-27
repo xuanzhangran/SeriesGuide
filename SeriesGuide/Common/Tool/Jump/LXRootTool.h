@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SGRootTool : NSObject
+@interface LXRootTool : NSObject
 
 + (void)chooseRootWithTabBarVC:(UIWindow *)window;
 

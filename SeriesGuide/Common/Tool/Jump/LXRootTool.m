@@ -6,11 +6,11 @@
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGRootTool.h"
+#import "LXRootTool.h"
 #import "SGTabBarController.h"
 #import "SGNavigationController.h"
 
-@implementation SGRootTool
+@implementation LXRootTool
 
 + (void)chooseRootWithTabBarVC:(UIWindow *)window{
     SGTabBarController *tabBarVC = [[SGTabBarController alloc] init];

@@ -6,8 +6,8 @@
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGBaseTableViewPlainController.h"
+#import "LXBaseTableViewPlainController.h"
 
-@interface SGHomeController : SGBaseTableViewPlainController
+@interface LXHomeController : LXBaseTableViewPlainController
 
 @end

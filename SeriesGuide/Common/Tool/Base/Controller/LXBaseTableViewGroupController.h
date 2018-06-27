@@ -1,5 +1,5 @@
 //
-//  SGInterestController.h
+//  SGBaseTableViewGroupController.h
 //  SeriesGuide
 //
 //  Created by xuan on 2018/6/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SGInterestController : UIViewController
+@interface LXBaseTableViewGroupController : UITableViewController
 
 @end

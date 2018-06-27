@@ -1,5 +1,5 @@
 //
-//  SGHotController.h
+//  SGMineController.h
 //  SeriesGuide
 //
 //  Created by xuan on 2018/6/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SGHotController : UIViewController
+@interface LXMineController : UIViewController
 
 @end

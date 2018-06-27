@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "SGRootTool.h"
+#import "LXRootTool.h"
 
 @interface AppDelegate ()
 
@@ -25,7 +25,7 @@
     //显示窗口
     [self.window makeKeyAndVisible];
     //选择根控制器
-    [SGRootTool chooseRootWithTabBarVC:self.window];
+    [LXRootTool chooseRootWithTabBarVC:self.window];
     
     return YES;
 }

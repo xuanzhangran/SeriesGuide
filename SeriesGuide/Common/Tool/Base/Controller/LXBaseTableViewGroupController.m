@@ -6,13 +6,13 @@
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGBaseTableViewGroupController.h"
+#import "LXBaseTableViewGroupController.h"
 
-@interface SGBaseTableViewGroupController ()
+@interface LXBaseTableViewGroupController ()
 
 @end
 
-@implementation SGBaseTableViewGroupController
+@implementation LXBaseTableViewGroupController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

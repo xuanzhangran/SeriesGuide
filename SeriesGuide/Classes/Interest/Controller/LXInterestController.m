@@ -1,23 +1,23 @@
 //
-//  SGHotController.m
+//  SGInterestController.m
 //  SeriesGuide
 //
 //  Created by xuan on 2018/6/27.
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGHotController.h"
+#import "LXInterestController.h"
 
-@interface SGHotController ()
+@interface LXInterestController ()
 
 @end
 
-@implementation SGHotController
+@implementation LXInterestController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"热点";
+    self.navigationItem.title = @"娱乐";
     
     self.view.backgroundColor = LXColorRandom;
 }

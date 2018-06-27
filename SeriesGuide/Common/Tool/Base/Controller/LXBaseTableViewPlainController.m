@@ -6,13 +6,13 @@
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGBaseTableViewPlainController.h"
+#import "LXBaseTableViewPlainController.h"
 
-@interface SGBaseTableViewPlainController ()
+@interface LXBaseTableViewPlainController ()
 
 @end
 
-@implementation SGBaseTableViewPlainController
+@implementation LXBaseTableViewPlainController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

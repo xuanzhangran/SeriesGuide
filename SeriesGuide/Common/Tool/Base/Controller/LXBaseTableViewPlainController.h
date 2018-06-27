@@ -1,5 +1,5 @@
 //
-//  SGBaseTableViewGroupController.h
+//  SGBaseTableViewPlainController.h
 //  SeriesGuide
 //
 //  Created by xuan on 2018/6/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SGBaseTableViewGroupController : UITableViewController
+@interface LXBaseTableViewPlainController : UITableViewController
 
 @end
