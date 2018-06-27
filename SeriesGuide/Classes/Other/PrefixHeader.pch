@@ -15,4 +15,6 @@
 #import "SGThemeDefine.h"
 #import "SGConst.h"
 
+#import <MJExtension/MJExtension.h>
+
 #endif /* PrefixHeader_pch */
