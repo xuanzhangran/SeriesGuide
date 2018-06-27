@@ -25,6 +25,9 @@
 		13AA049F20E36D8C001AAEEF /* SGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA049E20E36D8C001AAEEF /* SGTabBarController.m */; };
 		13AA04A220E36DEB001AAEEF /* SGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04A120E36DEB001AAEEF /* SGNavigationController.m */; };
 		13AA04A520E36EE0001AAEEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04A320E36EE0001AAEEF /* AppDelegate.m */; };
+		13AA04AB20E370D1001AAEEF /* SGMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04AA20E370D1001AAEEF /* SGMineController.m */; };
+		13AA04B220E3715C001AAEEF /* SGInterestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B120E3715C001AAEEF /* SGInterestController.m */; };
+		13AA04B920E371D8001AAEEF /* SGHotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B820E371D8001AAEEF /* SGHotController.m */; };
 		9EC79ABBC3E95972A957D2AC /* libPods-SeriesGuide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ACDAA3AB416582A8E354F /* libPods-SeriesGuide.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +69,12 @@
 		13AA04A120E36DEB001AAEEF /* SGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGNavigationController.m; sourceTree = "<group>"; };
 		13AA04A320E36EE0001AAEEF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13AA04A420E36EE0001AAEEF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13AA04A920E370D1001AAEEF /* SGMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGMineController.h; sourceTree = "<group>"; };
+		13AA04AA20E370D1001AAEEF /* SGMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGMineController.m; sourceTree = "<group>"; };
+		13AA04B020E3715C001AAEEF /* SGInterestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGInterestController.h; sourceTree = "<group>"; };
+		13AA04B120E3715C001AAEEF /* SGInterestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGInterestController.m; sourceTree = "<group>"; };
+		13AA04B720E371D8001AAEEF /* SGHotController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHotController.h; sourceTree = "<group>"; };
+		13AA04B820E371D8001AAEEF /* SGHotController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHotController.m; sourceTree = "<group>"; };
 		178ACDAA3AB416582A8E354F /* libPods-SeriesGuide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeriesGuide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC949AA2020A2A5AF862E6B /* Pods-SeriesGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeriesGuide/Pods-SeriesGuide.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,9 +123,11 @@
 		13AA045F20E36987001AAEEF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				13AA04B320E371CD001AAEEF /* Hot */,
+				13AA046220E36987001AAEEF /* Mine */,
+				13AA04AC20E3714F001AAEEF /* Interest */,
 				13AA046020E36987001AAEEF /* Home */,
 				13AA046120E36987001AAEEF /* Other */,
-				13AA046220E36987001AAEEF /* Mine */,
 				13AA046320E36987001AAEEF /* Main */,
 			);
 			path = Classes;
@@ -149,6 +160,9 @@
 		13AA046220E36987001AAEEF /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				13AA04A820E370C0001AAEEF /* Controller */,
+				13AA04A720E370C0001AAEEF /* Model */,
+				13AA04A620E370BF001AAEEF /* View */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -268,6 +282,95 @@
 				13AA049520E36CCB001AAEEF /* UIView+Extension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		13AA04A620E370BF001AAEEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13AA04A720E370C0001AAEEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13AA04A820E370C0001AAEEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13AA04A920E370D1001AAEEF /* SGMineController.h */,
+				13AA04AA20E370D1001AAEEF /* SGMineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13AA04AC20E3714F001AAEEF /* Interest */ = {
+			isa = PBXGroup;
+			children = (
+				13AA04AD20E3714F001AAEEF /* Controller */,
+				13AA04AE20E3714F001AAEEF /* Model */,
+				13AA04AF20E3714F001AAEEF /* View */,
+			);
+			path = Interest;
+			sourceTree = "<group>";
+		};
+		13AA04AD20E3714F001AAEEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13AA04B020E3715C001AAEEF /* SGInterestController.h */,
+				13AA04B120E3715C001AAEEF /* SGInterestController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13AA04AE20E3714F001AAEEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13AA04AF20E3714F001AAEEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13AA04B320E371CD001AAEEF /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				13AA04B420E371CD001AAEEF /* Controller */,
+				13AA04B520E371CD001AAEEF /* Model */,
+				13AA04B620E371CD001AAEEF /* View */,
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		13AA04B420E371CD001AAEEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13AA04B720E371D8001AAEEF /* SGHotController.h */,
+				13AA04B820E371D8001AAEEF /* SGHotController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13AA04B520E371CD001AAEEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13AA04B620E371CD001AAEEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4890F89480B75ED4DDDF5289 /* Pods */ = {
@@ -409,6 +512,7 @@
 				13AA049B20E36CCB001AAEEF /* UIButton+Extension.m in Sources */,
 				13AA049C20E36CCB001AAEEF /* UIView+Extension.m in Sources */,
 				13AA046B20E369CC001AAEEF /* main.m in Sources */,
+				13AA04AB20E370D1001AAEEF /* SGMineController.m in Sources */,
 				13AA04A520E36EE0001AAEEF /* AppDelegate.m in Sources */,
 				13AA049F20E36D8C001AAEEF /* SGTabBarController.m in Sources */,
 				13AA04A220E36DEB001AAEEF /* SGNavigationController.m in Sources */,
@@ -416,8 +520,10 @@
 				13AA049620E36CCB001AAEEF /* UIView+Frame.m in Sources */,
 				13AA048520E36C6E001AAEEF /* SGConst.m in Sources */,
 				13AA048120E36C06001AAEEF /* SGHomeController.m in Sources */,
+				13AA04B220E3715C001AAEEF /* SGInterestController.m in Sources */,
 				13AA047720E36A46001AAEEF /* Foundation+Log.m in Sources */,
 				13AA049720E36CCB001AAEEF /* UIImage+Extension.m in Sources */,
+				13AA04B920E371D8001AAEEF /* SGHotController.m in Sources */,
 				13AA049820E36CCB001AAEEF /* UIButton+EnlargeArea.m in Sources */,
 				13AA049920E36CCB001AAEEF /* UIBarButtonItem+Extention.m in Sources */,
 			);
@@ -563,7 +669,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duotin.SeriesGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -583,7 +689,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.duotin.SeriesGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
