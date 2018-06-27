@@ -21,6 +21,14 @@
     self.navigationItem.title = @"首页";
     
     self.view.backgroundColor = SGColorRandom;
+    
+    
+}
+
+- (void)viewDidLayoutSubviews{
+    [super viewDidLayoutSubviews];
+    
+    self.tableView.frame = self.view.bounds;
 }
 
 @end

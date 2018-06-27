@@ -51,8 +51,8 @@
 //Cell分割线颜色
 #define SGColorCellSeparate UIColorFromRGB(0xf6f6f6)
 
-//TableView背景颜色
-#define SGColorTableViewBg UIColorFromRGB(0xf6f6f6)
+//灰色视图背景颜色
+#define SGColorBgViewGray UIColorFromRGB(0xf5f5f5)
 
 /** 颜色相关 */
 #define SC_RGBColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)] // RGB

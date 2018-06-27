@@ -6,8 +6,8 @@
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SGBaseTableViewPlainController.h"
 
-@interface SGHomeController : UIViewController
+@interface SGHomeController : SGBaseTableViewPlainController
 
 @end

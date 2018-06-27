@@ -32,16 +32,16 @@
 - (void)setUpChildViewController{
     
     SGHomeController *homeVC = [[SGHomeController alloc] init];
-    [self setUpChildController:homeVC image:[UIImage imageNamed:@"tab_home_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_home_selected"] title:@"影视"];
+    [self setUpChildController:homeVC image:[UIImage imageNamed:@"tab_movie_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_movie_selected"] title:@"影视"];
     
     SGInterestController *memberVC = [[SGInterestController alloc] init];
-    [self setUpChildController:memberVC image:[UIImage imageNamed:@"tab_order_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_order_selected"] title:@"娱乐"];
+    [self setUpChildController:memberVC image:[UIImage imageNamed:@"tab_interest_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_interest_selected"] title:@"娱乐"];
     
     SGHotController *billVC = [[SGHotController alloc] init];
-    [self setUpChildController:billVC image:[UIImage imageNamed:@"tab_message_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_message_selected"] title:@"热点"];
+    [self setUpChildController:billVC image:[UIImage imageNamed:@"tab_hot_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_hot_selected"] title:@"热点"];
     
     SGMineController *mineVC = [[SGMineController alloc] init];
-    [self setUpChildController:mineVC image:[UIImage imageNamed:@"tab_my_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_my_selected"] title:@"我的"];
+    [self setUpChildController:mineVC image:[UIImage imageNamed:@"tab_mine_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_mine_normal"] title:@"我的"];
 }
 
 - (void)setUpChildController:(UIViewController *)vc image:(UIImage *)image selectImage:(UIImage *)selectImage title:(NSString *)title{

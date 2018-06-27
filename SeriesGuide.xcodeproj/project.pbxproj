@@ -28,6 +28,8 @@
 		13AA04AB20E370D1001AAEEF /* SGMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04AA20E370D1001AAEEF /* SGMineController.m */; };
 		13AA04B220E3715C001AAEEF /* SGInterestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B120E3715C001AAEEF /* SGInterestController.m */; };
 		13AA04B920E371D8001AAEEF /* SGHotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B820E371D8001AAEEF /* SGHotController.m */; };
+		13AA04C220E37AF8001AAEEF /* SGBaseTableViewPlainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04C120E37AF8001AAEEF /* SGBaseTableViewPlainController.m */; };
+		13AA04C520E37B42001AAEEF /* SGBaseTableViewGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04C420E37B42001AAEEF /* SGBaseTableViewGroupController.m */; };
 		9EC79ABBC3E95972A957D2AC /* libPods-SeriesGuide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ACDAA3AB416582A8E354F /* libPods-SeriesGuide.a */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +77,10 @@
 		13AA04B120E3715C001AAEEF /* SGInterestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGInterestController.m; sourceTree = "<group>"; };
 		13AA04B720E371D8001AAEEF /* SGHotController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHotController.h; sourceTree = "<group>"; };
 		13AA04B820E371D8001AAEEF /* SGHotController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHotController.m; sourceTree = "<group>"; };
+		13AA04C020E37AF8001AAEEF /* SGBaseTableViewPlainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGBaseTableViewPlainController.h; sourceTree = "<group>"; };
+		13AA04C120E37AF8001AAEEF /* SGBaseTableViewPlainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGBaseTableViewPlainController.m; sourceTree = "<group>"; };
+		13AA04C320E37B42001AAEEF /* SGBaseTableViewGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGBaseTableViewGroupController.h; sourceTree = "<group>"; };
+		13AA04C420E37B42001AAEEF /* SGBaseTableViewGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGBaseTableViewGroupController.m; sourceTree = "<group>"; };
 		178ACDAA3AB416582A8E354F /* libPods-SeriesGuide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeriesGuide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC949AA2020A2A5AF862E6B /* Pods-SeriesGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeriesGuide/Pods-SeriesGuide.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,6 +199,7 @@
 		13AA046F20E36A2A001AAEEF /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				13AA04BA20E37A95001AAEEF /* Base */,
 				13AA047020E36A2A001AAEEF /* Single */,
 				13AA047120E36A2A001AAEEF /* Jump */,
 				13AA047220E36A2A001AAEEF /* Http */,
@@ -373,6 +380,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		13AA04BA20E37A95001AAEEF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				13AA04BB20E37A95001AAEEF /* Controller */,
+				13AA04BC20E37AA2001AAEEF /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		13AA04BB20E37A95001AAEEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13AA04C020E37AF8001AAEEF /* SGBaseTableViewPlainController.h */,
+				13AA04C120E37AF8001AAEEF /* SGBaseTableViewPlainController.m */,
+				13AA04C320E37B42001AAEEF /* SGBaseTableViewGroupController.h */,
+				13AA04C420E37B42001AAEEF /* SGBaseTableViewGroupController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13AA04BC20E37AA2001AAEEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4890F89480B75ED4DDDF5289 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -508,12 +542,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AA04C520E37B42001AAEEF /* SGBaseTableViewGroupController.m in Sources */,
 				13AA047A20E36A73001AAEEF /* SGRootTool.m in Sources */,
 				13AA049B20E36CCB001AAEEF /* UIButton+Extension.m in Sources */,
 				13AA049C20E36CCB001AAEEF /* UIView+Extension.m in Sources */,
 				13AA046B20E369CC001AAEEF /* main.m in Sources */,
 				13AA04AB20E370D1001AAEEF /* SGMineController.m in Sources */,
 				13AA04A520E36EE0001AAEEF /* AppDelegate.m in Sources */,
+				13AA04C220E37AF8001AAEEF /* SGBaseTableViewPlainController.m in Sources */,
 				13AA049F20E36D8C001AAEEF /* SGTabBarController.m in Sources */,
 				13AA04A220E36DEB001AAEEF /* SGNavigationController.m in Sources */,
 				13AA049A20E36CCB001AAEEF /* UIColor+BFKit.m in Sources */,
