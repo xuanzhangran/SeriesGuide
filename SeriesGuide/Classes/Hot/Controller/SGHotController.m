@@ -19,7 +19,7 @@
     
     self.navigationItem.title = @"热点";
     
-    self.view.backgroundColor = SGColorRandom;
+    self.view.backgroundColor = LXColorRandom;
 }
 
 @end

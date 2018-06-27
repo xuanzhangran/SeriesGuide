@@ -43,7 +43,7 @@
         //去掉下边线
         [bar setShadowImage:[UIImage new]];
         //设置当前导航条背景色
-        bar.barTintColor = SGColorWhite;
+        bar.barTintColor = LXColorWhite;
         //设置导航条文字颜色和大小
         NSMutableDictionary *barAttr = [NSMutableDictionary dictionary];
         barAttr[NSForegroundColorAttributeName] = UIColor.blackColor;

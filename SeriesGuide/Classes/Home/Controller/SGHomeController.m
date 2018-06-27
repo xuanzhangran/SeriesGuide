@@ -31,7 +31,7 @@
     
     self.navigationItem.title = @"首页";
     
-    self.view.backgroundColor = SGColorBgViewGray;
+    self.view.backgroundColor = LXColorBgViewGray;
     
     self.tableView.frame = self.view.bounds;
 }

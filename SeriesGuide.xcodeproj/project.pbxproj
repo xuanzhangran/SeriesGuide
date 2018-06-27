@@ -14,7 +14,6 @@
 		13AA047720E36A46001AAEEF /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA047620E36A46001AAEEF /* Foundation+Log.m */; };
 		13AA047A20E36A73001AAEEF /* SGRootTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA047920E36A73001AAEEF /* SGRootTool.m */; };
 		13AA048120E36C06001AAEEF /* SGHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA048020E36C06001AAEEF /* SGHomeController.m */; };
-		13AA048520E36C6E001AAEEF /* SGConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA048420E36C6E001AAEEF /* SGConst.m */; };
 		13AA049620E36CCB001AAEEF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA048B20E36CCB001AAEEF /* UIView+Frame.m */; };
 		13AA049720E36CCB001AAEEF /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA048E20E36CCB001AAEEF /* UIImage+Extension.m */; };
 		13AA049820E36CCB001AAEEF /* UIButton+EnlargeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA048F20E36CCB001AAEEF /* UIButton+EnlargeArea.m */; };
@@ -33,29 +32,7 @@
 		13AA04C920E37F32001AAEEF /* SGHomeCompanyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04C720E37F32001AAEEF /* SGHomeCompanyCell.m */; };
 		13AA04CA20E37F32001AAEEF /* SGHomeCompanyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13AA04C820E37F32001AAEEF /* SGHomeCompanyCell.xib */; };
 		13AA04CD20E37F45001AAEEF /* SGHomeCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04CC20E37F45001AAEEF /* SGHomeCompanyModel.m */; };
-		13AA050A20E38BE0001AAEEF /* MusicPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04D120E38BE0001AAEEF /* MusicPlayerManager.m */; };
-		13AA050B20E38BE0001AAEEF /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04D620E38BE0001AAEEF /* ContentTableViewController.m */; };
-		13AA050C20E38BE0001AAEEF /* DetailControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04D720E38BE0001AAEEF /* DetailControlViewController.m */; };
-		13AA050D20E38BE0001AAEEF /* JDPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04D820E38BE0001AAEEF /* JDPlayerController.m */; };
-		13AA050E20E38BE0001AAEEF /* OMAlbumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04DB20E38BE0001AAEEF /* OMAlbumInfo.m */; };
-		13AA050F20E38BE0001AAEEF /* OMSongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04DC20E38BE0001AAEEF /* OMSongInfo.m */; };
-		13AA051020E38BE0001AAEEF /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04DD20E38BE0001AAEEF /* Const.m */; };
-		13AA051120E38BE0001AAEEF /* OMArtistInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04DE20E38BE0001AAEEF /* OMArtistInfo.m */; };
-		13AA051220E38BE0001AAEEF /* OMHotSongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04E020E38BE0001AAEEF /* OMHotSongInfo.m */; };
-		13AA051320E38BE0001AAEEF /* SimpleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04E720E38BE0001AAEEF /* SimpleControlView.m */; };
-		13AA051420E38BE0001AAEEF /* TTTopChannelContianerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04EA20E38BE0001AAEEF /* TTTopChannelContianerView.m */; };
-		13AA051520E38BE0001AAEEF /* SongListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04EC20E38BE0001AAEEF /* SongListTableView.m */; };
-		13AA051620E38BE0001AAEEF /* SongListTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04EE20E38BE0001AAEEF /* SongListTopView.m */; };
-		13AA051720E38BE0001AAEEF /* SongListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04EF20E38BE0001AAEEF /* SongListTableViewCell.m */; };
-		13AA051820E38BE0001AAEEF /* SongListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04F020E38BE0001AAEEF /* SongListView.m */; };
-		13AA051920E38BE0001AAEEF /* SCIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04F720E38BE0001AAEEF /* SCIconView.m */; };
-		13AA051A20E38BE0001AAEEF /* SCLrcTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04F820E38BE0001AAEEF /* SCLrcTableView.m */; };
-		13AA051B20E38BE0001AAEEF /* MidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04FB20E38BE0001AAEEF /* MidView.m */; };
-		13AA051C20E38BE0001AAEEF /* SCLrcTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04FD20E38BE0001AAEEF /* SCLrcTableViewCell.m */; };
-		13AA051D20E38BE0001AAEEF /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA050020E38BE0001AAEEF /* TopView.m */; };
-		13AA051E20E38BE0001AAEEF /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA050320E38BE0001AAEEF /* BottomView.m */; };
-		13AA051F20E38BE0001AAEEF /* SCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA050520E38BE0001AAEEF /* SCImageView.m */; };
-		13AA052020E38BE0001AAEEF /* MusicDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA050920E38BE0001AAEEF /* MusicDownloader.m */; };
+		13AA052720E39419001AAEEF /* LXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA052520E39418001AAEEF /* LXConst.m */; };
 		9EC79ABBC3E95972A957D2AC /* libPods-SeriesGuide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ACDAA3AB416582A8E354F /* libPods-SeriesGuide.a */; };
 /* End PBXBuildFile section */
 
@@ -73,10 +50,6 @@
 		13AA047B20E36B64001AAEEF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		13AA047F20E36C06001AAEEF /* SGHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHomeController.h; sourceTree = "<group>"; };
 		13AA048020E36C06001AAEEF /* SGHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHomeController.m; sourceTree = "<group>"; };
-		13AA048220E36C51001AAEEF /* SGHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHeader.h; sourceTree = "<group>"; };
-		13AA048320E36C6E001AAEEF /* SGConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGConst.h; sourceTree = "<group>"; };
-		13AA048420E36C6E001AAEEF /* SGConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGConst.m; sourceTree = "<group>"; };
-		13AA048620E36C9D001AAEEF /* SGThemeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGThemeDefine.h; sourceTree = "<group>"; };
 		13AA048820E36CCB001AAEEF /* UIButton+EnlargeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeArea.h"; sourceTree = "<group>"; };
 		13AA048920E36CCB001AAEEF /* UIColor+BFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFKit.h"; sourceTree = "<group>"; };
 		13AA048A20E36CCB001AAEEF /* UIBarButtonItem+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extention.h"; sourceTree = "<group>"; };
@@ -112,52 +85,10 @@
 		13AA04C820E37F32001AAEEF /* SGHomeCompanyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGHomeCompanyCell.xib; sourceTree = "<group>"; };
 		13AA04CB20E37F45001AAEEF /* SGHomeCompanyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHomeCompanyModel.h; sourceTree = "<group>"; };
 		13AA04CC20E37F45001AAEEF /* SGHomeCompanyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHomeCompanyModel.m; sourceTree = "<group>"; };
-		13AA04D020E38BE0001AAEEF /* MusicPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerManager.h; sourceTree = "<group>"; };
-		13AA04D120E38BE0001AAEEF /* MusicPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerManager.m; sourceTree = "<group>"; };
-		13AA04D320E38BE0001AAEEF /* DetailControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailControlViewController.h; sourceTree = "<group>"; };
-		13AA04D420E38BE0001AAEEF /* ContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewController.h; sourceTree = "<group>"; };
-		13AA04D520E38BE0001AAEEF /* JDPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDPlayerController.h; sourceTree = "<group>"; };
-		13AA04D620E38BE0001AAEEF /* ContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewController.m; sourceTree = "<group>"; };
-		13AA04D720E38BE0001AAEEF /* DetailControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailControlViewController.m; sourceTree = "<group>"; };
-		13AA04D820E38BE0001AAEEF /* JDPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDPlayerController.m; sourceTree = "<group>"; };
-		13AA04DA20E38BE0001AAEEF /* OMHotSongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMHotSongInfo.h; sourceTree = "<group>"; };
-		13AA04DB20E38BE0001AAEEF /* OMAlbumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAlbumInfo.m; sourceTree = "<group>"; };
-		13AA04DC20E38BE0001AAEEF /* OMSongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSongInfo.m; sourceTree = "<group>"; };
-		13AA04DD20E38BE0001AAEEF /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
-		13AA04DE20E38BE0001AAEEF /* OMArtistInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMArtistInfo.m; sourceTree = "<group>"; };
-		13AA04DF20E38BE0001AAEEF /* OMAlbumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAlbumInfo.h; sourceTree = "<group>"; };
-		13AA04E020E38BE0001AAEEF /* OMHotSongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMHotSongInfo.m; sourceTree = "<group>"; };
-		13AA04E120E38BE0001AAEEF /* OMSongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSongInfo.h; sourceTree = "<group>"; };
-		13AA04E220E38BE0001AAEEF /* OMArtistInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMArtistInfo.h; sourceTree = "<group>"; };
-		13AA04E320E38BE0001AAEEF /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
-		13AA04E620E38BE0001AAEEF /* SimpleControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleControlView.h; sourceTree = "<group>"; };
-		13AA04E720E38BE0001AAEEF /* SimpleControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleControlView.m; sourceTree = "<group>"; };
-		13AA04E920E38BE0001AAEEF /* TTTopChannelContianerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTopChannelContianerView.h; sourceTree = "<group>"; };
-		13AA04EA20E38BE0001AAEEF /* TTTopChannelContianerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTopChannelContianerView.m; sourceTree = "<group>"; };
-		13AA04EC20E38BE0001AAEEF /* SongListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListTableView.m; sourceTree = "<group>"; };
-		13AA04ED20E38BE0001AAEEF /* SongListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListView.h; sourceTree = "<group>"; };
-		13AA04EE20E38BE0001AAEEF /* SongListTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListTopView.m; sourceTree = "<group>"; };
-		13AA04EF20E38BE0001AAEEF /* SongListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListTableViewCell.m; sourceTree = "<group>"; };
-		13AA04F020E38BE0001AAEEF /* SongListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListView.m; sourceTree = "<group>"; };
-		13AA04F120E38BE0001AAEEF /* SongListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListTableView.h; sourceTree = "<group>"; };
-		13AA04F220E38BE0001AAEEF /* SongListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListTableViewCell.h; sourceTree = "<group>"; };
-		13AA04F320E38BE0001AAEEF /* SongListTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListTopView.h; sourceTree = "<group>"; };
-		13AA04F620E38BE0001AAEEF /* MidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidView.h; sourceTree = "<group>"; };
-		13AA04F720E38BE0001AAEEF /* SCIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCIconView.m; sourceTree = "<group>"; };
-		13AA04F820E38BE0001AAEEF /* SCLrcTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLrcTableView.m; sourceTree = "<group>"; };
-		13AA04F920E38BE0001AAEEF /* SCLrcTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLrcTableViewCell.h; sourceTree = "<group>"; };
-		13AA04FA20E38BE0001AAEEF /* SCIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCIconView.h; sourceTree = "<group>"; };
-		13AA04FB20E38BE0001AAEEF /* MidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidView.m; sourceTree = "<group>"; };
-		13AA04FC20E38BE0001AAEEF /* SCLrcTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLrcTableView.h; sourceTree = "<group>"; };
-		13AA04FD20E38BE0001AAEEF /* SCLrcTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLrcTableViewCell.m; sourceTree = "<group>"; };
-		13AA04FF20E38BE0001AAEEF /* TopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
-		13AA050020E38BE0001AAEEF /* TopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
-		13AA050220E38BE0001AAEEF /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
-		13AA050320E38BE0001AAEEF /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
-		13AA050520E38BE0001AAEEF /* SCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCImageView.m; sourceTree = "<group>"; };
-		13AA050620E38BE0001AAEEF /* SCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCImageView.h; sourceTree = "<group>"; };
-		13AA050820E38BE0001AAEEF /* MusicDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDownloader.h; sourceTree = "<group>"; };
-		13AA050920E38BE0001AAEEF /* MusicDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDownloader.m; sourceTree = "<group>"; };
+		13AA052120E393BE001AAEEF /* LXHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHeader.h; sourceTree = "<group>"; };
+		13AA052520E39418001AAEEF /* LXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXConst.m; sourceTree = "<group>"; };
+		13AA052620E39419001AAEEF /* LXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXConst.h; sourceTree = "<group>"; };
+		13AA052820E39453001AAEEF /* LXThemeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXThemeDefine.h; sourceTree = "<group>"; };
 		178ACDAA3AB416582A8E354F /* libPods-SeriesGuide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeriesGuide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC949AA2020A2A5AF862E6B /* Pods-SeriesGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeriesGuide/Pods-SeriesGuide.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -206,7 +137,6 @@
 		13AA045F20E36987001AAEEF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				13AA04CE20E38BE0001AAEEF /* Player */,
 				13AA04B320E371CD001AAEEF /* Hot */,
 				13AA046220E36987001AAEEF /* Mine */,
 				13AA04AC20E3714F001AAEEF /* Interest */,
@@ -233,10 +163,10 @@
 				13AA046A20E369CC001AAEEF /* Info.plist */,
 				13AA046520E369CC001AAEEF /* main.m */,
 				13AA047B20E36B64001AAEEF /* PrefixHeader.pch */,
-				13AA048220E36C51001AAEEF /* SGHeader.h */,
-				13AA048320E36C6E001AAEEF /* SGConst.h */,
-				13AA048420E36C6E001AAEEF /* SGConst.m */,
-				13AA048620E36C9D001AAEEF /* SGThemeDefine.h */,
+				13AA052120E393BE001AAEEF /* LXHeader.h */,
+				13AA052620E39419001AAEEF /* LXConst.h */,
+				13AA052520E39418001AAEEF /* LXConst.m */,
+				13AA052820E39453001AAEEF /* LXThemeDefine.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -490,163 +420,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		13AA04CE20E38BE0001AAEEF /* Player */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04CF20E38BE0001AAEEF /* MusicPlayerManager */,
-				13AA04D220E38BE0001AAEEF /* Controller */,
-				13AA04D920E38BE0001AAEEF /* Model */,
-				13AA04E420E38BE0001AAEEF /* View */,
-				13AA050720E38BE0001AAEEF /* MusicDownloader */,
-			);
-			path = Player;
-			sourceTree = "<group>";
-		};
-		13AA04CF20E38BE0001AAEEF /* MusicPlayerManager */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04D020E38BE0001AAEEF /* MusicPlayerManager.h */,
-				13AA04D120E38BE0001AAEEF /* MusicPlayerManager.m */,
-			);
-			path = MusicPlayerManager;
-			sourceTree = "<group>";
-		};
-		13AA04D220E38BE0001AAEEF /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04D320E38BE0001AAEEF /* DetailControlViewController.h */,
-				13AA04D420E38BE0001AAEEF /* ContentTableViewController.h */,
-				13AA04D520E38BE0001AAEEF /* JDPlayerController.h */,
-				13AA04D620E38BE0001AAEEF /* ContentTableViewController.m */,
-				13AA04D720E38BE0001AAEEF /* DetailControlViewController.m */,
-				13AA04D820E38BE0001AAEEF /* JDPlayerController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		13AA04D920E38BE0001AAEEF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04DA20E38BE0001AAEEF /* OMHotSongInfo.h */,
-				13AA04DB20E38BE0001AAEEF /* OMAlbumInfo.m */,
-				13AA04DC20E38BE0001AAEEF /* OMSongInfo.m */,
-				13AA04DD20E38BE0001AAEEF /* Const.m */,
-				13AA04DE20E38BE0001AAEEF /* OMArtistInfo.m */,
-				13AA04DF20E38BE0001AAEEF /* OMAlbumInfo.h */,
-				13AA04E020E38BE0001AAEEF /* OMHotSongInfo.m */,
-				13AA04E120E38BE0001AAEEF /* OMSongInfo.h */,
-				13AA04E220E38BE0001AAEEF /* OMArtistInfo.h */,
-				13AA04E320E38BE0001AAEEF /* Const.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		13AA04E420E38BE0001AAEEF /* View */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04E520E38BE0001AAEEF /* SimpleControlView */,
-				13AA04E820E38BE0001AAEEF /* JDPlayerTopView */,
-				13AA04EB20E38BE0001AAEEF /* SongListView */,
-				13AA04F420E38BE0001AAEEF /* DetailControlView */,
-				13AA050420E38BE0001AAEEF /* SCImageView */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		13AA04E520E38BE0001AAEEF /* SimpleControlView */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04E620E38BE0001AAEEF /* SimpleControlView.h */,
-				13AA04E720E38BE0001AAEEF /* SimpleControlView.m */,
-			);
-			path = SimpleControlView;
-			sourceTree = "<group>";
-		};
-		13AA04E820E38BE0001AAEEF /* JDPlayerTopView */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04E920E38BE0001AAEEF /* TTTopChannelContianerView.h */,
-				13AA04EA20E38BE0001AAEEF /* TTTopChannelContianerView.m */,
-			);
-			path = JDPlayerTopView;
-			sourceTree = "<group>";
-		};
-		13AA04EB20E38BE0001AAEEF /* SongListView */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04EC20E38BE0001AAEEF /* SongListTableView.m */,
-				13AA04ED20E38BE0001AAEEF /* SongListView.h */,
-				13AA04EE20E38BE0001AAEEF /* SongListTopView.m */,
-				13AA04EF20E38BE0001AAEEF /* SongListTableViewCell.m */,
-				13AA04F020E38BE0001AAEEF /* SongListView.m */,
-				13AA04F120E38BE0001AAEEF /* SongListTableView.h */,
-				13AA04F220E38BE0001AAEEF /* SongListTableViewCell.h */,
-				13AA04F320E38BE0001AAEEF /* SongListTopView.h */,
-			);
-			path = SongListView;
-			sourceTree = "<group>";
-		};
-		13AA04F420E38BE0001AAEEF /* DetailControlView */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04F520E38BE0001AAEEF /* MidView */,
-				13AA04FE20E38BE0001AAEEF /* TopView */,
-				13AA050120E38BE0001AAEEF /* BottomView */,
-			);
-			path = DetailControlView;
-			sourceTree = "<group>";
-		};
-		13AA04F520E38BE0001AAEEF /* MidView */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04F620E38BE0001AAEEF /* MidView.h */,
-				13AA04F720E38BE0001AAEEF /* SCIconView.m */,
-				13AA04F820E38BE0001AAEEF /* SCLrcTableView.m */,
-				13AA04F920E38BE0001AAEEF /* SCLrcTableViewCell.h */,
-				13AA04FA20E38BE0001AAEEF /* SCIconView.h */,
-				13AA04FB20E38BE0001AAEEF /* MidView.m */,
-				13AA04FC20E38BE0001AAEEF /* SCLrcTableView.h */,
-				13AA04FD20E38BE0001AAEEF /* SCLrcTableViewCell.m */,
-			);
-			path = MidView;
-			sourceTree = "<group>";
-		};
-		13AA04FE20E38BE0001AAEEF /* TopView */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04FF20E38BE0001AAEEF /* TopView.h */,
-				13AA050020E38BE0001AAEEF /* TopView.m */,
-			);
-			path = TopView;
-			sourceTree = "<group>";
-		};
-		13AA050120E38BE0001AAEEF /* BottomView */ = {
-			isa = PBXGroup;
-			children = (
-				13AA050220E38BE0001AAEEF /* BottomView.h */,
-				13AA050320E38BE0001AAEEF /* BottomView.m */,
-			);
-			path = BottomView;
-			sourceTree = "<group>";
-		};
-		13AA050420E38BE0001AAEEF /* SCImageView */ = {
-			isa = PBXGroup;
-			children = (
-				13AA050520E38BE0001AAEEF /* SCImageView.m */,
-				13AA050620E38BE0001AAEEF /* SCImageView.h */,
-			);
-			path = SCImageView;
-			sourceTree = "<group>";
-		};
-		13AA050720E38BE0001AAEEF /* MusicDownloader */ = {
-			isa = PBXGroup;
-			children = (
-				13AA050820E38BE0001AAEEF /* MusicDownloader.h */,
-				13AA050920E38BE0001AAEEF /* MusicDownloader.m */,
-			);
-			path = MusicDownloader;
-			sourceTree = "<group>";
-		};
 		4890F89480B75ED4DDDF5289 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -783,51 +556,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AA051D20E38BE0001AAEEF /* TopView.m in Sources */,
 				13AA04C520E37B42001AAEEF /* SGBaseTableViewGroupController.m in Sources */,
-				13AA050B20E38BE0001AAEEF /* ContentTableViewController.m in Sources */,
-				13AA050F20E38BE0001AAEEF /* OMSongInfo.m in Sources */,
-				13AA051620E38BE0001AAEEF /* SongListTopView.m in Sources */,
-				13AA051E20E38BE0001AAEEF /* BottomView.m in Sources */,
 				13AA047A20E36A73001AAEEF /* SGRootTool.m in Sources */,
-				13AA051A20E38BE0001AAEEF /* SCLrcTableView.m in Sources */,
-				13AA051F20E38BE0001AAEEF /* SCImageView.m in Sources */,
 				13AA049B20E36CCB001AAEEF /* UIButton+Extension.m in Sources */,
 				13AA049C20E36CCB001AAEEF /* UIView+Extension.m in Sources */,
 				13AA046B20E369CC001AAEEF /* main.m in Sources */,
-				13AA051220E38BE0001AAEEF /* OMHotSongInfo.m in Sources */,
 				13AA04AB20E370D1001AAEEF /* SGMineController.m in Sources */,
-				13AA051820E38BE0001AAEEF /* SongListView.m in Sources */,
-				13AA050E20E38BE0001AAEEF /* OMAlbumInfo.m in Sources */,
-				13AA051020E38BE0001AAEEF /* Const.m in Sources */,
+				13AA052720E39419001AAEEF /* LXConst.m in Sources */,
 				13AA04A520E36EE0001AAEEF /* AppDelegate.m in Sources */,
-				13AA050A20E38BE0001AAEEF /* MusicPlayerManager.m in Sources */,
-				13AA051120E38BE0001AAEEF /* OMArtistInfo.m in Sources */,
-				13AA051420E38BE0001AAEEF /* TTTopChannelContianerView.m in Sources */,
 				13AA04C220E37AF8001AAEEF /* SGBaseTableViewPlainController.m in Sources */,
 				13AA049F20E36D8C001AAEEF /* SGTabBarController.m in Sources */,
 				13AA04A220E36DEB001AAEEF /* SGNavigationController.m in Sources */,
-				13AA051520E38BE0001AAEEF /* SongListTableView.m in Sources */,
 				13AA04CD20E37F45001AAEEF /* SGHomeCompanyModel.m in Sources */,
 				13AA049A20E36CCB001AAEEF /* UIColor+BFKit.m in Sources */,
-				13AA051920E38BE0001AAEEF /* SCIconView.m in Sources */,
 				13AA049620E36CCB001AAEEF /* UIView+Frame.m in Sources */,
-				13AA051320E38BE0001AAEEF /* SimpleControlView.m in Sources */,
-				13AA051720E38BE0001AAEEF /* SongListTableViewCell.m in Sources */,
-				13AA052020E38BE0001AAEEF /* MusicDownloader.m in Sources */,
-				13AA048520E36C6E001AAEEF /* SGConst.m in Sources */,
 				13AA048120E36C06001AAEEF /* SGHomeController.m in Sources */,
 				13AA04B220E3715C001AAEEF /* SGInterestController.m in Sources */,
-				13AA051C20E38BE0001AAEEF /* SCLrcTableViewCell.m in Sources */,
 				13AA04C920E37F32001AAEEF /* SGHomeCompanyCell.m in Sources */,
 				13AA047720E36A46001AAEEF /* Foundation+Log.m in Sources */,
-				13AA051B20E38BE0001AAEEF /* MidView.m in Sources */,
 				13AA049720E36CCB001AAEEF /* UIImage+Extension.m in Sources */,
 				13AA04B920E371D8001AAEEF /* SGHotController.m in Sources */,
-				13AA050D20E38BE0001AAEEF /* JDPlayerController.m in Sources */,
 				13AA049820E36CCB001AAEEF /* UIButton+EnlargeArea.m in Sources */,
 				13AA049920E36CCB001AAEEF /* UIBarButtonItem+Extention.m in Sources */,
-				13AA050C20E38BE0001AAEEF /* DetailControlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     self.tableView.frame = self.view.bounds;
-    self.tableView.backgroundColor = SGColorBgViewGray;
+    self.tableView.backgroundColor = LXColorBgViewGray;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.showsVerticalScrollIndicator = YES;
     self.tableView.showsHorizontalScrollIndicator = NO;

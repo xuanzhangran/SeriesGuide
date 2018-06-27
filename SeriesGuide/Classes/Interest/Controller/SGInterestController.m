@@ -19,7 +19,7 @@
     
     self.navigationItem.title = @"娱乐";
     
-    self.view.backgroundColor = SGColorRandom;
+    self.view.backgroundColor = LXColorRandom;
 }
 
 @end

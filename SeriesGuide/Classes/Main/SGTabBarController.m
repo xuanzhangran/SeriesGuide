@@ -10,7 +10,6 @@
 #import "SGNavigationController.h"
 #import "SGHomeController.h"
 #import "SGInterestController.h"
-#import "JDPlayerController.h"
 #import "SGHotController.h"
 #import "SGMineController.h"
 #import "UIImage+Extension.h"
@@ -35,11 +34,11 @@
     SGHomeController *homeVC = [[SGHomeController alloc] init];
     [self setUpChildController:homeVC image:[UIImage imageNamed:@"tab_movie_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_movie_selected"] title:@"影视"];
     
-    JDPlayerController *memberVC = [[JDPlayerController alloc] init];
-    [self setUpChildController:memberVC image:[UIImage imageNamed:@"tab_interest_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_interest_selected"] title:@"娱乐"];
+    SGInterestController *interestVC = [[SGInterestController alloc] init];
+    [self setUpChildController:interestVC image:[UIImage imageNamed:@"tab_interest_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_interest_selected"] title:@"娱乐"];
     
-    SGHotController *billVC = [[SGHotController alloc] init];
-    [self setUpChildController:billVC image:[UIImage imageNamed:@"tab_hot_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_hot_selected"] title:@"热点"];
+    SGHotController *hotVC = [[SGHotController alloc] init];
+    [self setUpChildController:hotVC image:[UIImage imageNamed:@"tab_hot_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_hot_selected"] title:@"热点"];
     
     SGMineController *mineVC = [[SGMineController alloc] init];
     [self setUpChildController:mineVC image:[UIImage imageNamed:@"tab_mine_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_mine_normal"] title:@"我的"];

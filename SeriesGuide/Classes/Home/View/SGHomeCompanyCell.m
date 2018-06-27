@@ -38,7 +38,7 @@ static NSString *ID = @"SGHomeCompanyCellID";
 - (void)setUpUI{
     
     //设置背景色
-    self.contentView.backgroundColor = SGColorWhite;
+    self.contentView.backgroundColor = LXColorWhite;
 }
 
 - (void)setModel:(SGHomeCompanyModel *)model{
