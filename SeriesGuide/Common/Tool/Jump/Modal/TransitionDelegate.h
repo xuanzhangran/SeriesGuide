@@ -10,7 +10,8 @@
 #import "Singleton.h"
 
 @interface TransitionDelegate : NSObject<UIViewControllerTransitioningDelegate>
+
 //实现单例模式
-SingletonH(Transition)
+SingletonInterface(Transition)
 
 @end

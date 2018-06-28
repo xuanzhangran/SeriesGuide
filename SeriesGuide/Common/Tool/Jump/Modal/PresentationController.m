@@ -11,12 +11,20 @@
 @interface PresentationController()
 //过渡的view
 @property (nonatomic, weak) UIView *transtioningView;
+
 @end
 
 @implementation PresentationController
 
+//- (CGRect)frameOfPresentedViewInContainerView
+//{
+////    return CGRectMake(0, 50, self.containerView.frame.size.width, self.containerView.frame.size.height - 100);
+//    return CGRectInset(self.containerView.bounds, 0, 100);
+//}
+
 //即将出现调用
 - (void)presentationTransitionWillBegin{
+    
     //添加半透明背景 View 到视图中
     UIView *transtioningView = [[UIView alloc] init];
     transtioningView.backgroundColor = [UIColor colorWithRed:1.0 green:0.0 blue:1.0 alpha:0.5];
@@ -44,7 +52,7 @@
 
 //出现调用
 - (void)presentationTransitionDidEnd:(BOOL)completed{
-    // 如果呈现没有完成，那就移除背景 View
+    // 如果呈现没有完成，那就移除背景View
     if (!completed){
         [self.transtioningView removeFromSuperview];
     }
@@ -70,7 +78,6 @@
         
         [self.transtioningView removeFromSuperview];
     }
-    
 }
 
 @end

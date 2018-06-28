@@ -18,8 +18,8 @@ const NSTimeInterval duration = 1.0;
 - (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext{
     //动画执行时间
     return duration;
-    
 }
+
 //实际动画效果（以后需要改的地方只有这里）
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext{
     if (self.presented) {//创建控制器
