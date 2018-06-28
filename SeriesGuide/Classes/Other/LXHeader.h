@@ -49,7 +49,7 @@
 #define APP_NAME [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"]
 #define APP_VERSION_CODE [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
 #define APP_BUNDLEID [[NSBundle mainBundle] bundleIdentifier]
-#define APP_KEYCHAIN @"CLPay"
+#define APP_KEYCHAIN @"SeriesGuide"
 #define ChannelId @"AppStore"
 
 #endif /* LXHeader_h */

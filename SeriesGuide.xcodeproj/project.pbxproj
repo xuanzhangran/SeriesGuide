@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1340548A20E46E2C00985CC7 /* LXHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340548920E46E2C00985CC7 /* LXHttpTool.m */; };
+		1340548D20E46E6100985CC7 /* LXNetRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340548C20E46E6100985CC7 /* LXNetRequestTool.m */; };
+		1340549020E46E9F00985CC7 /* LXUploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340548F20E46E9F00985CC7 /* LXUploadParam.m */; };
+		1340549320E4701D00985CC7 /* LXNetReachablityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340549220E4701D00985CC7 /* LXNetReachablityTool.m */; };
+		134054A020E471C000985CC7 /* LXBaseTableViewGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340549A20E471C000985CC7 /* LXBaseTableViewGroupController.m */; };
+		134054A120E471C000985CC7 /* LXBaseTableViewPlainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340549B20E471C000985CC7 /* LXBaseTableViewPlainController.m */; };
+		134054A820E471DF00985CC7 /* LXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054A320E471DF00985CC7 /* LXBaseModel.m */; };
+		134054A920E471DF00985CC7 /* LXBasePageParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054A520E471DF00985CC7 /* LXBasePageParam.m */; };
+		134054AA20E471DF00985CC7 /* LXBaseParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054A720E471DF00985CC7 /* LXBaseParam.m */; };
+		134054AE20E4724800985CC7 /* LXUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054AD20E4724800985CC7 /* LXUtil.m */; };
 		13AA045320E35FCD001AAEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA045220E35FCD001AAEEF /* Assets.xcassets */; };
 		13AA045620E35FCD001AAEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AA045420E35FCD001AAEEF /* LaunchScreen.storyboard */; };
 		13AA046B20E369CC001AAEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA046520E369CC001AAEEF /* main.m */; };
@@ -27,8 +37,6 @@
 		13AA04AB20E370D1001AAEEF /* LXMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04AA20E370D1001AAEEF /* LXMineController.m */; };
 		13AA04B220E3715C001AAEEF /* LXInterestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B120E3715C001AAEEF /* LXInterestController.m */; };
 		13AA04B920E371D8001AAEEF /* LXHotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B820E371D8001AAEEF /* LXHotController.m */; };
-		13AA04C220E37AF8001AAEEF /* LXBaseTableViewPlainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04C120E37AF8001AAEEF /* LXBaseTableViewPlainController.m */; };
-		13AA04C520E37B42001AAEEF /* LXBaseTableViewGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04C420E37B42001AAEEF /* LXBaseTableViewGroupController.m */; };
 		13AA04C920E37F32001AAEEF /* SGHomeCompanyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04C720E37F32001AAEEF /* SGHomeCompanyCell.m */; };
 		13AA04CA20E37F32001AAEEF /* SGHomeCompanyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13AA04C820E37F32001AAEEF /* SGHomeCompanyCell.xib */; };
 		13AA04CD20E37F45001AAEEF /* SGHomeCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04CC20E37F45001AAEEF /* SGHomeCompanyModel.m */; };
@@ -38,6 +46,26 @@
 
 /* Begin PBXFileReference section */
 		0E1FD9146FE8E2C1776ADAA7 /* Pods-SeriesGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeriesGuide/Pods-SeriesGuide.release.xcconfig"; sourceTree = "<group>"; };
+		1340548820E46E2C00985CC7 /* LXHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHttpTool.h; sourceTree = "<group>"; };
+		1340548920E46E2C00985CC7 /* LXHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHttpTool.m; sourceTree = "<group>"; };
+		1340548B20E46E6100985CC7 /* LXNetRequestTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetRequestTool.h; sourceTree = "<group>"; };
+		1340548C20E46E6100985CC7 /* LXNetRequestTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNetRequestTool.m; sourceTree = "<group>"; };
+		1340548E20E46E9F00985CC7 /* LXUploadParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXUploadParam.h; sourceTree = "<group>"; };
+		1340548F20E46E9F00985CC7 /* LXUploadParam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXUploadParam.m; sourceTree = "<group>"; };
+		1340549120E4701D00985CC7 /* LXNetReachablityTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetReachablityTool.h; sourceTree = "<group>"; };
+		1340549220E4701D00985CC7 /* LXNetReachablityTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNetReachablityTool.m; sourceTree = "<group>"; };
+		1340549A20E471C000985CC7 /* LXBaseTableViewGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseTableViewGroupController.m; sourceTree = "<group>"; };
+		1340549B20E471C000985CC7 /* LXBaseTableViewPlainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseTableViewPlainController.m; sourceTree = "<group>"; };
+		1340549C20E471C000985CC7 /* LXBaseTableViewGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseTableViewGroupController.h; sourceTree = "<group>"; };
+		1340549D20E471C000985CC7 /* LXBaseTableViewPlainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseTableViewPlainController.h; sourceTree = "<group>"; };
+		134054A220E471DE00985CC7 /* LXBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseModel.h; sourceTree = "<group>"; };
+		134054A320E471DF00985CC7 /* LXBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseModel.m; sourceTree = "<group>"; };
+		134054A420E471DF00985CC7 /* LXBasePageParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBasePageParam.h; sourceTree = "<group>"; };
+		134054A520E471DF00985CC7 /* LXBasePageParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBasePageParam.m; sourceTree = "<group>"; };
+		134054A620E471DF00985CC7 /* LXBaseParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseParam.h; sourceTree = "<group>"; };
+		134054A720E471DF00985CC7 /* LXBaseParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseParam.m; sourceTree = "<group>"; };
+		134054AC20E4724800985CC7 /* LXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXUtil.h; sourceTree = "<group>"; };
+		134054AD20E4724800985CC7 /* LXUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXUtil.m; sourceTree = "<group>"; };
 		13AA044620E35FC9001AAEEF /* SeriesGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeriesGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AA045220E35FCD001AAEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13AA045520E35FCD001AAEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,10 +104,6 @@
 		13AA04B120E3715C001AAEEF /* LXInterestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXInterestController.m; sourceTree = "<group>"; };
 		13AA04B720E371D8001AAEEF /* LXHotController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHotController.h; sourceTree = "<group>"; };
 		13AA04B820E371D8001AAEEF /* LXHotController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHotController.m; sourceTree = "<group>"; };
-		13AA04C020E37AF8001AAEEF /* LXBaseTableViewPlainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBaseTableViewPlainController.h; sourceTree = "<group>"; };
-		13AA04C120E37AF8001AAEEF /* LXBaseTableViewPlainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBaseTableViewPlainController.m; sourceTree = "<group>"; };
-		13AA04C320E37B42001AAEEF /* LXBaseTableViewGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBaseTableViewGroupController.h; sourceTree = "<group>"; };
-		13AA04C420E37B42001AAEEF /* LXBaseTableViewGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBaseTableViewGroupController.m; sourceTree = "<group>"; };
 		13AA04C620E37F32001AAEEF /* SGHomeCompanyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHomeCompanyCell.h; sourceTree = "<group>"; };
 		13AA04C720E37F32001AAEEF /* SGHomeCompanyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHomeCompanyCell.m; sourceTree = "<group>"; };
 		13AA04C820E37F32001AAEEF /* SGHomeCompanyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGHomeCompanyCell.xib; sourceTree = "<group>"; };
@@ -105,6 +129,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1340549820E471C000985CC7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1340549920E471C000985CC7 /* Controller */,
+				1340549E20E471C000985CC7 /* Model */,
+				1340549F20E471C000985CC7 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1340549920E471C000985CC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1340549A20E471C000985CC7 /* LXBaseTableViewGroupController.m */,
+				1340549B20E471C000985CC7 /* LXBaseTableViewPlainController.m */,
+				1340549C20E471C000985CC7 /* LXBaseTableViewGroupController.h */,
+				1340549D20E471C000985CC7 /* LXBaseTableViewPlainController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1340549E20E471C000985CC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				134054A220E471DE00985CC7 /* LXBaseModel.h */,
+				134054A320E471DF00985CC7 /* LXBaseModel.m */,
+				134054A420E471DF00985CC7 /* LXBasePageParam.h */,
+				134054A520E471DF00985CC7 /* LXBasePageParam.m */,
+				134054A620E471DF00985CC7 /* LXBaseParam.h */,
+				134054A720E471DF00985CC7 /* LXBaseParam.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1340549F20E471C000985CC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		134054AB20E4724100985CC7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				134054AC20E4724800985CC7 /* LXUtil.h */,
+				134054AD20E4724800985CC7 /* LXUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		13AA043D20E35FC9001AAEEF = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +271,8 @@
 		13AA046420E36987001AAEEF /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1340549820E471C000985CC7 /* Base */,
+				134054AB20E4724100985CC7 /* Util */,
 				13AA048720E36CCB001AAEEF /* Category */,
 				13AA046F20E36A2A001AAEEF /* Tool */,
 				13AA047420E36A2A001AAEEF /* UI */,
@@ -207,7 +283,6 @@
 		13AA046F20E36A2A001AAEEF /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				13AA04BA20E37A95001AAEEF /* Base */,
 				13AA047020E36A2A001AAEEF /* Single */,
 				13AA047120E36A2A001AAEEF /* Jump */,
 				13AA047220E36A2A001AAEEF /* Http */,
@@ -236,6 +311,14 @@
 		13AA047220E36A2A001AAEEF /* Http */ = {
 			isa = PBXGroup;
 			children = (
+				1340549120E4701D00985CC7 /* LXNetReachablityTool.h */,
+				1340549220E4701D00985CC7 /* LXNetReachablityTool.m */,
+				1340548B20E46E6100985CC7 /* LXNetRequestTool.h */,
+				1340548C20E46E6100985CC7 /* LXNetRequestTool.m */,
+				1340548820E46E2C00985CC7 /* LXHttpTool.h */,
+				1340548920E46E2C00985CC7 /* LXHttpTool.m */,
+				1340548E20E46E9F00985CC7 /* LXUploadParam.h */,
+				1340548F20E46E9F00985CC7 /* LXUploadParam.m */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -393,33 +476,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		13AA04BA20E37A95001AAEEF /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04BB20E37A95001AAEEF /* Controller */,
-				13AA04BC20E37AA2001AAEEF /* View */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		13AA04BB20E37A95001AAEEF /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				13AA04C020E37AF8001AAEEF /* LXBaseTableViewPlainController.h */,
-				13AA04C120E37AF8001AAEEF /* LXBaseTableViewPlainController.m */,
-				13AA04C320E37B42001AAEEF /* LXBaseTableViewGroupController.h */,
-				13AA04C420E37B42001AAEEF /* LXBaseTableViewGroupController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		13AA04BC20E37AA2001AAEEF /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		4890F89480B75ED4DDDF5289 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,26 +612,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AA04C520E37B42001AAEEF /* LXBaseTableViewGroupController.m in Sources */,
 				13AA047A20E36A73001AAEEF /* LXRootTool.m in Sources */,
+				134054A920E471DF00985CC7 /* LXBasePageParam.m in Sources */,
 				13AA049B20E36CCB001AAEEF /* UIButton+Extension.m in Sources */,
 				13AA049C20E36CCB001AAEEF /* UIView+Extension.m in Sources */,
+				134054AA20E471DF00985CC7 /* LXBaseParam.m in Sources */,
+				134054AE20E4724800985CC7 /* LXUtil.m in Sources */,
 				13AA046B20E369CC001AAEEF /* main.m in Sources */,
 				13AA04AB20E370D1001AAEEF /* LXMineController.m in Sources */,
 				13AA052720E39419001AAEEF /* LXConst.m in Sources */,
+				134054A120E471C000985CC7 /* LXBaseTableViewPlainController.m in Sources */,
 				13AA04A520E36EE0001AAEEF /* AppDelegate.m in Sources */,
-				13AA04C220E37AF8001AAEEF /* LXBaseTableViewPlainController.m in Sources */,
 				13AA049F20E36D8C001AAEEF /* SGTabBarController.m in Sources */,
 				13AA04A220E36DEB001AAEEF /* SGNavigationController.m in Sources */,
+				1340548A20E46E2C00985CC7 /* LXHttpTool.m in Sources */,
+				134054A020E471C000985CC7 /* LXBaseTableViewGroupController.m in Sources */,
 				13AA04CD20E37F45001AAEEF /* SGHomeCompanyModel.m in Sources */,
 				13AA049A20E36CCB001AAEEF /* UIColor+BFKit.m in Sources */,
 				13AA049620E36CCB001AAEEF /* UIView+Frame.m in Sources */,
+				1340548D20E46E6100985CC7 /* LXNetRequestTool.m in Sources */,
 				13AA048120E36C06001AAEEF /* LXHomeController.m in Sources */,
 				13AA04B220E3715C001AAEEF /* LXInterestController.m in Sources */,
 				13AA04C920E37F32001AAEEF /* SGHomeCompanyCell.m in Sources */,
 				13AA047720E36A46001AAEEF /* Foundation+Log.m in Sources */,
+				1340549320E4701D00985CC7 /* LXNetReachablityTool.m in Sources */,
 				13AA049720E36CCB001AAEEF /* UIImage+Extension.m in Sources */,
+				1340549020E46E9F00985CC7 /* LXUploadParam.m in Sources */,
 				13AA04B920E371D8001AAEEF /* LXHotController.m in Sources */,
+				134054A820E471DF00985CC7 /* LXBaseModel.m in Sources */,
 				13AA049820E36CCB001AAEEF /* UIButton+EnlargeArea.m in Sources */,
 				13AA049920E36CCB001AAEEF /* UIBarButtonItem+Extention.m in Sources */,
 			);
