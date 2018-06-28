@@ -6,34 +6,100 @@
 //  Copyright © 2016年 Duotin Network Technology Co.,LTD. All rights reserved.
 //
 
-#define SingletonInterface(name) + (instancetype)shared##name;
+// 帮助实现单例设计模式
 
-#define SingletonImplementation(name) \
-static id _instance; \
+// .h文件的实现
+#define SingletonH(methodName) + (instancetype)shared##methodName;
+
+// .m文件的实现
+#if __has_feature(objc_arc) // 是ARC
+#define SingletonM(methodName) \
+static id _instace = nil; \
++ (id)allocWithZone:(struct _NSZone *)zone \
+{ \
+if (_instace == nil) { \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instace = [super allocWithZone:zone]; \
+}); \
+} \
+return _instace; \
+} \
 \
-+ (instancetype)allocWithZone:(struct _NSZone *)zone \
+- (id)init \
 { \
 static dispatch_once_t onceToken; \
 dispatch_once(&onceToken, ^{ \
-_instance = [super allocWithZone:zone]; \
+_instace = [super init]; \
 }); \
-return _instance; \
+return _instace; \
 } \
 \
-+ (instancetype)shared##name \
++ (instancetype)shared##methodName \
 { \
-static dispatch_once_t onceToken; \
-dispatch_once(&onceToken, ^{ \
-_instance = [[self alloc] init]; \
-}); \
-return _instance; \
+return [[self alloc] init]; \
+} \
++ (id)copyWithZone:(struct _NSZone *)zone \
+{ \
+return _instace; \
 } \
 \
-- (id)copyWithZone:(NSZone *)zone \
++ (id)mutableCopyWithZone:(struct _NSZone *)zone \
 { \
-return _instance; \
-}\
-\
-- (id)mutableCopyWithZone:(NSZone *)zone { \
-return _instance; \
+return _instace; \
 }
+
+#else // 不是ARC
+
+#define SingletonM(methodName) \
+static id _instace = nil; \
++ (id)allocWithZone:(struct _NSZone *)zone \
+{ \
+if (_instace == nil) { \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instace = [super allocWithZone:zone]; \
+}); \
+} \
+return _instace; \
+} \
+\
+- (id)init \
+{ \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instace = [super init]; \
+}); \
+return _instace; \
+} \
+\
++ (instancetype)shared##methodName \
+{ \
+return [[self alloc] init]; \
+} \
+\
+- (oneway void)release \
+{ \
+\
+} \
+\
+- (id)retain \
+{ \
+return self; \
+} \
+\
+- (NSUInteger)retainCount \
+{ \
+return 1; \
+} \
++ (id)copyWithZone:(struct _NSZone *)zone \
+{ \
+return _instace; \
+} \
+\
++ (id)mutableCopyWithZone:(struct _NSZone *)zone \
+{ \
+return _instace; \
+}
+
+#endif

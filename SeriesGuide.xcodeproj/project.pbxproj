@@ -17,12 +17,16 @@
 		134054A920E471DF00985CC7 /* LXBasePageParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054A520E471DF00985CC7 /* LXBasePageParam.m */; };
 		134054AA20E471DF00985CC7 /* LXBaseParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054A720E471DF00985CC7 /* LXBaseParam.m */; };
 		134054AE20E4724800985CC7 /* LXUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054AD20E4724800985CC7 /* LXUtil.m */; };
+		134054DD20E4C3C100985CC7 /* LXSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054DC20E4C3C100985CC7 /* LXSecondController.m */; };
+		134054E320E4C93C00985CC7 /* LXRootTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054E120E4C93C00985CC7 /* LXRootTool.m */; };
+		134054E620E4CE5800985CC7 /* TransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054E520E4CE5800985CC7 /* TransitionDelegate.m */; };
+		134054E920E4CE9C00985CC7 /* PresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054E820E4CE9C00985CC7 /* PresentationController.m */; };
+		134054EC20E4CEEE00985CC7 /* AnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054EB20E4CEEE00985CC7 /* AnimatedTransitioning.m */; };
 		13AA045320E35FCD001AAEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA045220E35FCD001AAEEF /* Assets.xcassets */; };
 		13AA045620E35FCD001AAEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AA045420E35FCD001AAEEF /* LaunchScreen.storyboard */; };
 		13AA046B20E369CC001AAEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA046520E369CC001AAEEF /* main.m */; };
 		13AA046E20E369CC001AAEEF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13AA046A20E369CC001AAEEF /* Info.plist */; };
 		13AA047720E36A46001AAEEF /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA047620E36A46001AAEEF /* Foundation+Log.m */; };
-		13AA047A20E36A73001AAEEF /* LXRootTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA047920E36A73001AAEEF /* LXRootTool.m */; };
 		13AA048120E36C06001AAEEF /* LXHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA048020E36C06001AAEEF /* LXHomeController.m */; };
 		13AA049620E36CCB001AAEEF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA048B20E36CCB001AAEEF /* UIView+Frame.m */; };
 		13AA049720E36CCB001AAEEF /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA048E20E36CCB001AAEEF /* UIImage+Extension.m */; };
@@ -66,6 +70,16 @@
 		134054A720E471DF00985CC7 /* LXBaseParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseParam.m; sourceTree = "<group>"; };
 		134054AC20E4724800985CC7 /* LXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXUtil.h; sourceTree = "<group>"; };
 		134054AD20E4724800985CC7 /* LXUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXUtil.m; sourceTree = "<group>"; };
+		134054DB20E4C3C100985CC7 /* LXSecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXSecondController.h; sourceTree = "<group>"; };
+		134054DC20E4C3C100985CC7 /* LXSecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSecondController.m; sourceTree = "<group>"; };
+		134054E020E4C93C00985CC7 /* LXRootTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRootTool.h; sourceTree = "<group>"; };
+		134054E120E4C93C00985CC7 /* LXRootTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRootTool.m; sourceTree = "<group>"; };
+		134054E420E4CE5800985CC7 /* TransitionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionDelegate.h; sourceTree = "<group>"; };
+		134054E520E4CE5800985CC7 /* TransitionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionDelegate.m; sourceTree = "<group>"; };
+		134054E720E4CE9C00985CC7 /* PresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentationController.h; sourceTree = "<group>"; };
+		134054E820E4CE9C00985CC7 /* PresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentationController.m; sourceTree = "<group>"; };
+		134054EA20E4CEEE00985CC7 /* AnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedTransitioning.h; sourceTree = "<group>"; };
+		134054EB20E4CEEE00985CC7 /* AnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedTransitioning.m; sourceTree = "<group>"; };
 		13AA044620E35FC9001AAEEF /* SeriesGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeriesGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AA045220E35FCD001AAEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13AA045520E35FCD001AAEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,8 +87,6 @@
 		13AA046A20E369CC001AAEEF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13AA047520E36A3D001AAEEF /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		13AA047620E36A46001AAEEF /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
-		13AA047820E36A73001AAEEF /* LXRootTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXRootTool.h; sourceTree = "<group>"; };
-		13AA047920E36A73001AAEEF /* LXRootTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRootTool.m; sourceTree = "<group>"; };
 		13AA047B20E36B64001AAEEF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		13AA047F20E36C06001AAEEF /* LXHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHomeController.h; sourceTree = "<group>"; };
 		13AA048020E36C06001AAEEF /* LXHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHomeController.m; sourceTree = "<group>"; };
@@ -177,6 +189,37 @@
 				134054AD20E4724800985CC7 /* LXUtil.m */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		134054DE20E4C93C00985CC7 /* Jump */ = {
+			isa = PBXGroup;
+			children = (
+				134054DF20E4C93C00985CC7 /* Root */,
+				134054E220E4C93C00985CC7 /* Modal */,
+			);
+			path = Jump;
+			sourceTree = "<group>";
+		};
+		134054DF20E4C93C00985CC7 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				134054E020E4C93C00985CC7 /* LXRootTool.h */,
+				134054E120E4C93C00985CC7 /* LXRootTool.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		134054E220E4C93C00985CC7 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				134054E420E4CE5800985CC7 /* TransitionDelegate.h */,
+				134054E520E4CE5800985CC7 /* TransitionDelegate.m */,
+				134054E720E4CE9C00985CC7 /* PresentationController.h */,
+				134054E820E4CE9C00985CC7 /* PresentationController.m */,
+				134054EA20E4CEEE00985CC7 /* AnimatedTransitioning.h */,
+				134054EB20E4CEEE00985CC7 /* AnimatedTransitioning.m */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 		13AA043D20E35FC9001AAEEF = {
@@ -283,8 +326,8 @@
 		13AA046F20E36A2A001AAEEF /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				134054DE20E4C93C00985CC7 /* Jump */,
 				13AA047020E36A2A001AAEEF /* Single */,
-				13AA047120E36A2A001AAEEF /* Jump */,
 				13AA047220E36A2A001AAEEF /* Http */,
 				13AA047320E36A2A001AAEEF /* Log */,
 			);
@@ -297,15 +340,6 @@
 				13AA047520E36A3D001AAEEF /* Singleton.h */,
 			);
 			path = Single;
-			sourceTree = "<group>";
-		};
-		13AA047120E36A2A001AAEEF /* Jump */ = {
-			isa = PBXGroup;
-			children = (
-				13AA047820E36A73001AAEEF /* LXRootTool.h */,
-				13AA047920E36A73001AAEEF /* LXRootTool.m */,
-			);
-			path = Jump;
 			sourceTree = "<group>";
 		};
 		13AA047220E36A2A001AAEEF /* Http */ = {
@@ -362,6 +396,8 @@
 			children = (
 				13AA047F20E36C06001AAEEF /* LXHomeController.h */,
 				13AA048020E36C06001AAEEF /* LXHomeController.m */,
+				134054DB20E4C3C100985CC7 /* LXSecondController.h */,
+				134054DC20E4C3C100985CC7 /* LXSecondController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -612,30 +648,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AA047A20E36A73001AAEEF /* LXRootTool.m in Sources */,
 				134054A920E471DF00985CC7 /* LXBasePageParam.m in Sources */,
 				13AA049B20E36CCB001AAEEF /* UIButton+Extension.m in Sources */,
 				13AA049C20E36CCB001AAEEF /* UIView+Extension.m in Sources */,
 				134054AA20E471DF00985CC7 /* LXBaseParam.m in Sources */,
 				134054AE20E4724800985CC7 /* LXUtil.m in Sources */,
 				13AA046B20E369CC001AAEEF /* main.m in Sources */,
+				134054E320E4C93C00985CC7 /* LXRootTool.m in Sources */,
 				13AA04AB20E370D1001AAEEF /* LXMineController.m in Sources */,
 				13AA052720E39419001AAEEF /* LXConst.m in Sources */,
 				134054A120E471C000985CC7 /* LXBaseTableViewPlainController.m in Sources */,
+				134054DD20E4C3C100985CC7 /* LXSecondController.m in Sources */,
 				13AA04A520E36EE0001AAEEF /* AppDelegate.m in Sources */,
 				13AA049F20E36D8C001AAEEF /* SGTabBarController.m in Sources */,
 				13AA04A220E36DEB001AAEEF /* SGNavigationController.m in Sources */,
 				1340548A20E46E2C00985CC7 /* LXHttpTool.m in Sources */,
 				134054A020E471C000985CC7 /* LXBaseTableViewGroupController.m in Sources */,
+				134054EC20E4CEEE00985CC7 /* AnimatedTransitioning.m in Sources */,
 				13AA04CD20E37F45001AAEEF /* SGHomeCompanyModel.m in Sources */,
 				13AA049A20E36CCB001AAEEF /* UIColor+BFKit.m in Sources */,
 				13AA049620E36CCB001AAEEF /* UIView+Frame.m in Sources */,
 				1340548D20E46E6100985CC7 /* LXNetRequestTool.m in Sources */,
 				13AA048120E36C06001AAEEF /* LXHomeController.m in Sources */,
+				134054E620E4CE5800985CC7 /* TransitionDelegate.m in Sources */,
 				13AA04B220E3715C001AAEEF /* LXInterestController.m in Sources */,
 				13AA04C920E37F32001AAEEF /* SGHomeCompanyCell.m in Sources */,
 				13AA047720E36A46001AAEEF /* Foundation+Log.m in Sources */,
 				1340549320E4701D00985CC7 /* LXNetReachablityTool.m in Sources */,
+				134054E920E4CE9C00985CC7 /* PresentationController.m in Sources */,
 				13AA049720E36CCB001AAEEF /* UIImage+Extension.m in Sources */,
 				1340549020E46E9F00985CC7 /* LXUploadParam.m in Sources */,
 				13AA04B920E371D8001AAEEF /* LXHotController.m in Sources */,

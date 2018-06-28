@@ -9,6 +9,8 @@
 #import "LXHomeController.h"
 #import "SGHomeCompanyCell.h"
 #import "SGHomeCompanyModel.h"
+#import "LXSecondController.h"
+#import "TransitionDelegate.h"
 
 @interface LXHomeController ()
 
@@ -54,6 +56,16 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    
+    //初始化要切换的控制器
+    LXSecondController *vc = [[LXSecondController alloc] init];
+    // 设置动画样式（系统自带的调整方式四种）
+//    vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    vc.modalPresentationStyle = UIModalPresentationCustom;
+    vc.transitioningDelegate = [TransitionDelegate sharedTransition];
+    //控制器跳转
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end
