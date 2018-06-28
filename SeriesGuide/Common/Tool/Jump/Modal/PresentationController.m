@@ -27,7 +27,7 @@
     
     //添加半透明背景 View 到视图中
     UIView *transtioningView = [[UIView alloc] init];
-    transtioningView.backgroundColor = [UIColor colorWithRed:1.0 green:0.0 blue:1.0 alpha:0.5];
+    transtioningView.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.5];
     self.transtioningView = transtioningView;
     self.transtioningView.frame = self.containerView.bounds;
     self.transtioningView.alpha = 0.0;
@@ -36,7 +36,9 @@
     
     //一旦要自定义动画，必须自己手动添加控制器
     //设置尺寸(在动画中注意调整尺寸)
-    self.presentedView.frame = CGRectInset(self.containerView.bounds, 40, 60);
+    self.presentedView.frame = self.containerView.bounds;
+//    self.presentedView.frame = CGRectInset(self.containerView.bounds, 0, 160);
+//    self.presentedView.frame = CGRectMake(0, self.containerView.height - 200, self.containerView.bounds.size.width, 200);
     // 添加到containerView 上
     [self.containerView addSubview:self.presentedView];
     

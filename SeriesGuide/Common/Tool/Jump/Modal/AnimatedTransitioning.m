@@ -10,7 +10,7 @@
 #import "UIView+Extension.h"
 
 //动画执行时间
-const NSTimeInterval duration = 1.0;
+const NSTimeInterval duration = 0.5;
 
 @implementation AnimatedTransitioning
 
@@ -26,11 +26,13 @@ const NSTimeInterval duration = 1.0;
         UIView *toView = [transitionContext viewForKey:UITransitionContextToViewKey];
         //toView.layer.transform = CATransform3DMakeRotation(M_PI_2, 1, 1, 1);3D动画
         //toView.y = -toView.height;
-        toView.x = toView.width;
+        toView.y = toView.height;
+        //toView.x = toView.width;
         [UIView animateWithDuration:duration animations:^{
             //toView.layer.transform = CATransform3DIdentity;3D动画
             //toView.y = 0;
-            toView.x = 40;//注意同PresentationController设置的尺寸位置相关
+            toView.y = toView.height - 200;
+            //toView.x = 40;//注意同PresentationController设置的尺寸位置相关
         } completion:^(BOOL finished) {
             [transitionContext completeTransition:YES];
         }];
@@ -38,8 +40,9 @@ const NSTimeInterval duration = 1.0;
         [UIView animateWithDuration:duration animations:^{
             UIView *fromView = [transitionContext viewForKey:UITransitionContextFromViewKey];
             //fromView.layer.transform = CATransform3DMakeRotation(M_PI_2, 1, 1, 1);
-            //fromView.y = -fromView.height;
-            fromView.x = -fromView.width;
+            //fromView.y = - fromView.height;
+            fromView.y = fromView.height;
+            //fromView.x = -fromView.width;
         } completion:^(BOOL finished) {
             [transitionContext completeTransition:YES];
             

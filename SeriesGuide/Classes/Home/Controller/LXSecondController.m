@@ -20,10 +20,24 @@
     
     self.view.backgroundColor = LXColorRandom;
 //    self.view.alpha = 0.5;
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 100, 100, 50);
+    button.backgroundColor = LXColorRandom;
+    [button setTitle:@"关闭" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(clickBtn:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+}
+
+- (void)clickBtn:(UIButton *)btn{
+    DLog(@"%@",NSStringFromCGRect(self.view.frame));
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self dismissViewControllerAnimated:YES completion:nil];
+    
 }
 
 @end
