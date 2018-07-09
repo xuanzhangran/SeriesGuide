@@ -7,13 +7,13 @@
 //
 
 #import "LXRootTool.h"
-#import "SGTabBarController.h"
-#import "SGNavigationController.h"
+#import "LXTabBarController.h"
+#import "LXNavigationController.h"
 
 @implementation LXRootTool
 
 + (void)chooseRootWithTabBarVC:(UIWindow *)window{
-    SGTabBarController *tabBarVC = [[SGTabBarController alloc] init];
+    LXTabBarController *tabBarVC = [[LXTabBarController alloc] init];
     window.rootViewController = tabBarVC;
 }
 

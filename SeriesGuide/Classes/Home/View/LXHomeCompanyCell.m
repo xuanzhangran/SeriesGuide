@@ -1,21 +1,16 @@
 //
-//  SGHomeCompanyCell.m
+//  LXHomeCompanyCell.m
 //  SeriesGuide
 //
-//  Created by xuan on 2018/6/27.
+//  Created by xuan on 2018/7/9.
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGHomeCompanyCell.h"
+#import "LXHomeCompanyCell.h"
 
-@interface SGHomeCompanyCell ()
-@property (weak, nonatomic) IBOutlet UIImageView *logoImageV;
+@implementation LXHomeCompanyCell
 
-@end
-
-@implementation SGHomeCompanyCell
-
-static NSString *ID = @"SGHomeCompanyCellID";
+static NSString *ID = @"LXHomeCompanyCellID";
 
 + (instancetype)cellWithTableView:(UITableView *)tableView{
     id cell = [tableView dequeueReusableCellWithIdentifier:ID];
@@ -41,10 +36,10 @@ static NSString *ID = @"SGHomeCompanyCellID";
     self.contentView.backgroundColor = LXColorWhite;
 }
 
-- (void)setModel:(SGHomeCompanyModel *)model{
+- (void)setModel:(LXHomeCompanyModel *)model{
     _model = model;
     
-    self.logoImageV.image = [UIImage imageNamed:model.logo];
+//    self.logoImageV.image = [UIImage imageNamed:model.logo];
 }
 
 @end

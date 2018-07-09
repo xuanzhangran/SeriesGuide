@@ -7,8 +7,7 @@
 //
 
 #import "LXHomeController.h"
-#import "SGHomeCompanyCell.h"
-#import "SGHomeCompanyModel.h"
+#import "LXHomeCompanyCell.h"
 #import "LXSecondController.h"
 #import "TransitionDelegate.h"
 
@@ -22,7 +21,7 @@
 - (NSArray *)dataArray{
     if (_dataArray == nil) {
         NSArray *array = @[@{@"logo":@"icon_aqy_logo"},@{@"logo":@"icon_mgtv_logo"},@{@"logo":@"icon_tencent_logo"},@{@"logo":@"icon_youku_logo"}];
-        _dataArray = [SGHomeCompanyModel mj_objectArrayWithKeyValuesArray:array];
+        _dataArray = [LXHomeCompanyModel mj_objectArrayWithKeyValuesArray:array];
     }
     return _dataArray;
 }
@@ -48,8 +47,8 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    SGHomeCompanyCell *cell = [SGHomeCompanyCell cellWithTableView:tableView];
-    SGHomeCompanyModel *model = self.dataArray[indexPath.row];
+    LXHomeCompanyCell *cell = [LXHomeCompanyCell cellWithTableView:tableView];
+    LXHomeCompanyModel *model = self.dataArray[indexPath.row];
     cell.model = model;
     return cell;
 }

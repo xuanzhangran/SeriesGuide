@@ -6,19 +6,19 @@
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGTabBarController.h"
-#import "SGNavigationController.h"
+#import "LXTabBarController.h"
+#import "LXNavigationController.h"
 #import "LXHomeController.h"
 #import "LXInterestController.h"
 #import "LXHotController.h"
 #import "LXMineController.h"
 #import "UIImage+Extension.h"
 
-@interface SGTabBarController ()
+@interface LXTabBarController ()
 
 @end
 
-@implementation SGTabBarController
+@implementation LXTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -54,7 +54,7 @@
     
     vc.tabBarItem.selectedImage = selectImage;
     
-    SGNavigationController *navi = [[SGNavigationController alloc] initWithRootViewController:vc];
+    LXNavigationController *navi = [[LXNavigationController alloc] initWithRootViewController:vc];
     
     [self addChildViewController:navi];
 }

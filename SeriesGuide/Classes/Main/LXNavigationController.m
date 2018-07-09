@@ -1,23 +1,23 @@
 //
-//  SGNavigationController.m
+//  LXNavigationController.m
 //  SeriesGuide
 //
-//  Created by xuan on 2018/6/27.
+//  Created by xuan on 2018/7/9.
 //  Copyright © 2018年 duotin. All rights reserved.
 //
 
-#import "SGNavigationController.h"
+#import "LXNavigationController.h"
 #import "UIBarButtonItem+Extention.h"
 
-@interface SGNavigationController ()<UINavigationControllerDelegate>
+@interface LXNavigationController ()<UINavigationControllerDelegate>
 @property (nonatomic, strong) id popDelegate;
 @end
 
-@implementation SGNavigationController
+@implementation LXNavigationController
 
 //第一次使用这个类或者这个类的子类的时候
 + (void)initialize{
-    if (self == [SGNavigationController class]) {//保证只调用一次
+    if (self == [LXNavigationController class]) {//保证只调用一次
         
         //设置当前导航条，不是整个工程
         //        UINavigationBar *bar = [UINavigationBar appearanceWhenContainedIn:[QDNavigationController class], nil];
@@ -35,7 +35,7 @@
         //        titleAttr[NSFontAttributeName] = [UIFont systemFontOfSize:20.0];
         //        [item setTitleTextAttributes:titleAttr forState:UIControlStateNormal];
         
-        UINavigationBar *bar = [UINavigationBar appearanceWhenContainedIn:[SGNavigationController class], nil];
+        UINavigationBar *bar = [UINavigationBar appearanceWhenContainedIn:[LXNavigationController class], nil];
         //设置导航条的透明度
         bar.translucent = NO;
         //设置背景图片

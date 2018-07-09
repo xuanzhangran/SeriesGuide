@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1340477920F302FE0072B595 /* LXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340477820F302FE0072B595 /* LXNavigationController.m */; };
+		1340477C20F303E90072B595 /* LXHomeCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340477B20F303E90072B595 /* LXHomeCompanyModel.m */; };
+		1340478020F304590072B595 /* LXHomeCompanyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340477E20F304590072B595 /* LXHomeCompanyCell.m */; };
+		1340478120F304590072B595 /* LXHomeCompanyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1340477F20F304590072B595 /* LXHomeCompanyCell.xib */; };
 		1340548A20E46E2C00985CC7 /* LXHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340548920E46E2C00985CC7 /* LXHttpTool.m */; };
 		1340548D20E46E6100985CC7 /* LXNetRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340548C20E46E6100985CC7 /* LXNetRequestTool.m */; };
 		1340549020E46E9F00985CC7 /* LXUploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340548F20E46E9F00985CC7 /* LXUploadParam.m */; };
@@ -35,21 +39,24 @@
 		13AA049A20E36CCB001AAEEF /* UIColor+BFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA049120E36CCB001AAEEF /* UIColor+BFKit.m */; };
 		13AA049B20E36CCB001AAEEF /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA049320E36CCB001AAEEF /* UIButton+Extension.m */; };
 		13AA049C20E36CCB001AAEEF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA049520E36CCB001AAEEF /* UIView+Extension.m */; };
-		13AA049F20E36D8C001AAEEF /* SGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA049E20E36D8C001AAEEF /* SGTabBarController.m */; };
-		13AA04A220E36DEB001AAEEF /* SGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04A120E36DEB001AAEEF /* SGNavigationController.m */; };
+		13AA049F20E36D8C001AAEEF /* LXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA049E20E36D8C001AAEEF /* LXTabBarController.m */; };
 		13AA04A520E36EE0001AAEEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04A320E36EE0001AAEEF /* AppDelegate.m */; };
 		13AA04AB20E370D1001AAEEF /* LXMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04AA20E370D1001AAEEF /* LXMineController.m */; };
 		13AA04B220E3715C001AAEEF /* LXInterestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B120E3715C001AAEEF /* LXInterestController.m */; };
 		13AA04B920E371D8001AAEEF /* LXHotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B820E371D8001AAEEF /* LXHotController.m */; };
-		13AA04C920E37F32001AAEEF /* SGHomeCompanyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04C720E37F32001AAEEF /* SGHomeCompanyCell.m */; };
-		13AA04CA20E37F32001AAEEF /* SGHomeCompanyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13AA04C820E37F32001AAEEF /* SGHomeCompanyCell.xib */; };
-		13AA04CD20E37F45001AAEEF /* SGHomeCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04CC20E37F45001AAEEF /* SGHomeCompanyModel.m */; };
 		13AA052720E39419001AAEEF /* LXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA052520E39418001AAEEF /* LXConst.m */; };
 		9EC79ABBC3E95972A957D2AC /* libPods-SeriesGuide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ACDAA3AB416582A8E354F /* libPods-SeriesGuide.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E1FD9146FE8E2C1776ADAA7 /* Pods-SeriesGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeriesGuide/Pods-SeriesGuide.release.xcconfig"; sourceTree = "<group>"; };
+		1340477720F302FE0072B595 /* LXNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNavigationController.h; sourceTree = "<group>"; };
+		1340477820F302FE0072B595 /* LXNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNavigationController.m; sourceTree = "<group>"; };
+		1340477A20F303E90072B595 /* LXHomeCompanyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHomeCompanyModel.h; sourceTree = "<group>"; };
+		1340477B20F303E90072B595 /* LXHomeCompanyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHomeCompanyModel.m; sourceTree = "<group>"; };
+		1340477D20F304590072B595 /* LXHomeCompanyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHomeCompanyCell.h; sourceTree = "<group>"; };
+		1340477E20F304590072B595 /* LXHomeCompanyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHomeCompanyCell.m; sourceTree = "<group>"; };
+		1340477F20F304590072B595 /* LXHomeCompanyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LXHomeCompanyCell.xib; sourceTree = "<group>"; };
 		1340548820E46E2C00985CC7 /* LXHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHttpTool.h; sourceTree = "<group>"; };
 		1340548920E46E2C00985CC7 /* LXHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHttpTool.m; sourceTree = "<group>"; };
 		1340548B20E46E6100985CC7 /* LXNetRequestTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetRequestTool.h; sourceTree = "<group>"; };
@@ -104,10 +111,8 @@
 		13AA049320E36CCB001AAEEF /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		13AA049420E36CCB001AAEEF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		13AA049520E36CCB001AAEEF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		13AA049D20E36D8C001AAEEF /* SGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGTabBarController.h; sourceTree = "<group>"; };
-		13AA049E20E36D8C001AAEEF /* SGTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGTabBarController.m; sourceTree = "<group>"; };
-		13AA04A020E36DEB001AAEEF /* SGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGNavigationController.h; sourceTree = "<group>"; };
-		13AA04A120E36DEB001AAEEF /* SGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGNavigationController.m; sourceTree = "<group>"; };
+		13AA049D20E36D8C001AAEEF /* LXTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXTabBarController.h; sourceTree = "<group>"; };
+		13AA049E20E36D8C001AAEEF /* LXTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXTabBarController.m; sourceTree = "<group>"; };
 		13AA04A320E36EE0001AAEEF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13AA04A420E36EE0001AAEEF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13AA04A920E370D1001AAEEF /* LXMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXMineController.h; sourceTree = "<group>"; };
@@ -116,11 +121,6 @@
 		13AA04B120E3715C001AAEEF /* LXInterestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXInterestController.m; sourceTree = "<group>"; };
 		13AA04B720E371D8001AAEEF /* LXHotController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHotController.h; sourceTree = "<group>"; };
 		13AA04B820E371D8001AAEEF /* LXHotController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHotController.m; sourceTree = "<group>"; };
-		13AA04C620E37F32001AAEEF /* SGHomeCompanyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHomeCompanyCell.h; sourceTree = "<group>"; };
-		13AA04C720E37F32001AAEEF /* SGHomeCompanyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHomeCompanyCell.m; sourceTree = "<group>"; };
-		13AA04C820E37F32001AAEEF /* SGHomeCompanyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGHomeCompanyCell.xib; sourceTree = "<group>"; };
-		13AA04CB20E37F45001AAEEF /* SGHomeCompanyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHomeCompanyModel.h; sourceTree = "<group>"; };
-		13AA04CC20E37F45001AAEEF /* SGHomeCompanyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHomeCompanyModel.m; sourceTree = "<group>"; };
 		13AA052120E393BE001AAEEF /* LXHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHeader.h; sourceTree = "<group>"; };
 		13AA052520E39418001AAEEF /* LXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXConst.m; sourceTree = "<group>"; };
 		13AA052620E39419001AAEEF /* LXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXConst.h; sourceTree = "<group>"; };
@@ -303,10 +303,10 @@
 			children = (
 				13AA04A420E36EE0001AAEEF /* AppDelegate.h */,
 				13AA04A320E36EE0001AAEEF /* AppDelegate.m */,
-				13AA049D20E36D8C001AAEEF /* SGTabBarController.h */,
-				13AA049E20E36D8C001AAEEF /* SGTabBarController.m */,
-				13AA04A020E36DEB001AAEEF /* SGNavigationController.h */,
-				13AA04A120E36DEB001AAEEF /* SGNavigationController.m */,
+				13AA049D20E36D8C001AAEEF /* LXTabBarController.h */,
+				13AA049E20E36D8C001AAEEF /* LXTabBarController.m */,
+				1340477720F302FE0072B595 /* LXNavigationController.h */,
+				1340477820F302FE0072B595 /* LXNavigationController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -375,9 +375,9 @@
 		13AA047C20E36BF7001AAEEF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				13AA04C620E37F32001AAEEF /* SGHomeCompanyCell.h */,
-				13AA04C720E37F32001AAEEF /* SGHomeCompanyCell.m */,
-				13AA04C820E37F32001AAEEF /* SGHomeCompanyCell.xib */,
+				1340477D20F304590072B595 /* LXHomeCompanyCell.h */,
+				1340477E20F304590072B595 /* LXHomeCompanyCell.m */,
+				1340477F20F304590072B595 /* LXHomeCompanyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -385,8 +385,8 @@
 		13AA047D20E36BF8001AAEEF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				13AA04CB20E37F45001AAEEF /* SGHomeCompanyModel.h */,
-				13AA04CC20E37F45001AAEEF /* SGHomeCompanyModel.m */,
+				1340477A20F303E90072B595 /* LXHomeCompanyModel.h */,
+				1340477B20F303E90072B595 /* LXHomeCompanyModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -589,9 +589,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AA04CA20E37F32001AAEEF /* SGHomeCompanyCell.xib in Resources */,
 				13AA045620E35FCD001AAEEF /* LaunchScreen.storyboard in Resources */,
 				13AA045320E35FCD001AAEEF /* Assets.xcassets in Resources */,
+				1340478120F304590072B595 /* LXHomeCompanyCell.xib in Resources */,
 				13AA046E20E369CC001AAEEF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -660,19 +660,18 @@
 				134054A120E471C000985CC7 /* LXBaseTableViewPlainController.m in Sources */,
 				134054DD20E4C3C100985CC7 /* LXSecondController.m in Sources */,
 				13AA04A520E36EE0001AAEEF /* AppDelegate.m in Sources */,
-				13AA049F20E36D8C001AAEEF /* SGTabBarController.m in Sources */,
-				13AA04A220E36DEB001AAEEF /* SGNavigationController.m in Sources */,
+				13AA049F20E36D8C001AAEEF /* LXTabBarController.m in Sources */,
 				1340548A20E46E2C00985CC7 /* LXHttpTool.m in Sources */,
 				134054A020E471C000985CC7 /* LXBaseTableViewGroupController.m in Sources */,
+				1340477920F302FE0072B595 /* LXNavigationController.m in Sources */,
 				134054EC20E4CEEE00985CC7 /* AnimatedTransitioning.m in Sources */,
-				13AA04CD20E37F45001AAEEF /* SGHomeCompanyModel.m in Sources */,
+				1340478020F304590072B595 /* LXHomeCompanyCell.m in Sources */,
 				13AA049A20E36CCB001AAEEF /* UIColor+BFKit.m in Sources */,
 				13AA049620E36CCB001AAEEF /* UIView+Frame.m in Sources */,
 				1340548D20E46E6100985CC7 /* LXNetRequestTool.m in Sources */,
 				13AA048120E36C06001AAEEF /* LXHomeController.m in Sources */,
 				134054E620E4CE5800985CC7 /* TransitionDelegate.m in Sources */,
 				13AA04B220E3715C001AAEEF /* LXInterestController.m in Sources */,
-				13AA04C920E37F32001AAEEF /* SGHomeCompanyCell.m in Sources */,
 				13AA047720E36A46001AAEEF /* Foundation+Log.m in Sources */,
 				1340549320E4701D00985CC7 /* LXNetReachablityTool.m in Sources */,
 				134054E920E4CE9C00985CC7 /* PresentationController.m in Sources */,
@@ -681,6 +680,7 @@
 				13AA04B920E371D8001AAEEF /* LXHotController.m in Sources */,
 				134054A820E471DF00985CC7 /* LXBaseModel.m in Sources */,
 				13AA049820E36CCB001AAEEF /* UIButton+EnlargeArea.m in Sources */,
+				1340477C20F303E90072B595 /* LXHomeCompanyModel.m in Sources */,
 				13AA049920E36CCB001AAEEF /* UIBarButtonItem+Extention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
