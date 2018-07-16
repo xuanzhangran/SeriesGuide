@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "LXRootTool.h"
+#import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <notify.h>
 
 @interface AppDelegate ()
 
@@ -26,6 +29,13 @@
     [self.window makeKeyAndVisible];
     //选择根控制器
     [LXRootTool chooseRootWithTabBarVC:self.window];
+    
+    //后台播放音频设置
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setActive:YES error:nil];
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    //设置接受远程控制
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
     
     return YES;
 }
