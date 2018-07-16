@@ -26,6 +26,7 @@
 		134054E620E4CE5800985CC7 /* TransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054E520E4CE5800985CC7 /* TransitionDelegate.m */; };
 		134054E920E4CE9C00985CC7 /* PresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054E820E4CE9C00985CC7 /* PresentationController.m */; };
 		134054EC20E4CEEE00985CC7 /* AnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 134054EB20E4CEEE00985CC7 /* AnimatedTransitioning.m */; };
+		1358398720FC737D00EFC3B6 /* LXMusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1358398620FC737D00EFC3B6 /* LXMusicController.m */; };
 		13AA045320E35FCD001AAEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA045220E35FCD001AAEEF /* Assets.xcassets */; };
 		13AA045620E35FCD001AAEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AA045420E35FCD001AAEEF /* LaunchScreen.storyboard */; };
 		13AA046B20E369CC001AAEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA046520E369CC001AAEEF /* main.m */; };
@@ -87,6 +88,8 @@
 		134054E820E4CE9C00985CC7 /* PresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentationController.m; sourceTree = "<group>"; };
 		134054EA20E4CEEE00985CC7 /* AnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedTransitioning.h; sourceTree = "<group>"; };
 		134054EB20E4CEEE00985CC7 /* AnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedTransitioning.m; sourceTree = "<group>"; };
+		1358398520FC737D00EFC3B6 /* LXMusicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMusicController.h; sourceTree = "<group>"; };
+		1358398620FC737D00EFC3B6 /* LXMusicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMusicController.m; sourceTree = "<group>"; };
 		13AA044620E35FC9001AAEEF /* SeriesGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeriesGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AA045220E35FCD001AAEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13AA045520E35FCD001AAEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -222,6 +225,23 @@
 			path = Modal;
 			sourceTree = "<group>";
 		};
+		1358398020FC6F1B00EFC3B6 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				1358398420FC737D00EFC3B6 /* Controller */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		1358398420FC737D00EFC3B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1358398520FC737D00EFC3B6 /* LXMusicController.h */,
+				1358398620FC737D00EFC3B6 /* LXMusicController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		13AA043D20E35FC9001AAEEF = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +274,7 @@
 		13AA045F20E36987001AAEEF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1358398020FC6F1B00EFC3B6 /* Music */,
 				13AA04B320E371CD001AAEEF /* Hot */,
 				13AA046220E36987001AAEEF /* Mine */,
 				13AA04AC20E3714F001AAEEF /* Interest */,
@@ -666,6 +687,7 @@
 				1340477920F302FE0072B595 /* LXNavigationController.m in Sources */,
 				134054EC20E4CEEE00985CC7 /* AnimatedTransitioning.m in Sources */,
 				1340478020F304590072B595 /* LXHomeCompanyCell.m in Sources */,
+				1358398720FC737D00EFC3B6 /* LXMusicController.m in Sources */,
 				13AA049A20E36CCB001AAEEF /* UIColor+BFKit.m in Sources */,
 				13AA049620E36CCB001AAEEF /* UIView+Frame.m in Sources */,
 				1340548D20E46E6100985CC7 /* LXNetRequestTool.m in Sources */,

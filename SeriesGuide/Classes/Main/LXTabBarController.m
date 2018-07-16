@@ -12,6 +12,7 @@
 #import "LXInterestController.h"
 #import "LXHotController.h"
 #import "LXMineController.h"
+#import "LXMusicController.h"
 #import "UIImage+Extension.h"
 
 @interface LXTabBarController ()
@@ -34,11 +35,14 @@
     LXHomeController *homeVC = [[LXHomeController alloc] init];
     [self setUpChildController:homeVC image:[UIImage imageNamed:@"tab_movie_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_movie_selected"] title:@"影视"];
     
+    LXMusicController *musicVC = [[LXMusicController alloc] init];
+    [self setUpChildController:musicVC image:[UIImage imageNamed:@"tab_interest_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_interest_selected"] title:@"音乐"];
+    
     LXInterestController *interestVC = [[LXInterestController alloc] init];
-    [self setUpChildController:interestVC image:[UIImage imageNamed:@"tab_interest_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_interest_selected"] title:@"娱乐"];
+    [self setUpChildController:interestVC image:[UIImage imageNamed:@"tab_interest_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_interest_selected"] title:@"图文"];
     
     LXHotController *hotVC = [[LXHotController alloc] init];
-    [self setUpChildController:hotVC image:[UIImage imageNamed:@"tab_hot_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_hot_selected"] title:@"热点"];
+    [self setUpChildController:hotVC image:[UIImage imageNamed:@"tab_hot_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_hot_selected"] title:@"新闻"];
     
     LXMineController *mineVC = [[LXMineController alloc] init];
     [self setUpChildController:mineVC image:[UIImage imageNamed:@"tab_mine_normal"] selectImage:[UIImage imageWithOriginalName:@"tab_mine_normal"] title:@"我的"];
