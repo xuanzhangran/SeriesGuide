@@ -99,13 +99,13 @@ int lrcIndex = 0;
     [_midView.midIconView.imageView startRotating];
     
     if (musicPlayer.play.rate == 1) {
-        NSLog(@"播放！");
+        DLog(@"播放！");
         [_bottomView.playOrPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_play"] forState:UIControlStateNormal];
         [_bottomView.playOrPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_play_prs"] forState:UIControlStateHighlighted];
         [_midView.midIconView.imageView resumeRotate];
         
     } else {
-        NSLog(@"暂停");
+        DLog(@"暂停");
         [_bottomView.playOrPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_pause"] forState:UIControlStateNormal];
         [_bottomView.playOrPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_pause_prs"] forState:UIControlStateHighlighted];
         [_midView.midIconView.imageView stopRotating];
@@ -135,14 +135,14 @@ int lrcIndex = 0;
 -(void) playOrPauseButtonAction {
     
     if (musicPlayer.play.rate == 0) {
-        NSLog(@"播放！");
+        DLog(@"播放！");
         [_bottomView.playOrPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_play"] forState:UIControlStateNormal];
         [_bottomView.playOrPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_play_prs"] forState:UIControlStateHighlighted];
         [_midView.midIconView.imageView resumeRotate];
         [musicPlayer startPlay];
         
     } else {
-        NSLog(@"暂停");
+        DLog(@"暂停");
         [_bottomView.playOrPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_pause"] forState:UIControlStateNormal];
         [_bottomView.playOrPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_pause_prs"] forState:UIControlStateHighlighted];
         [_midView.midIconView.imageView stopRotating];
@@ -191,7 +191,7 @@ int lrcIndex = 0;
     if ( musicPlayer.playingIndex != songInfo.playSongIndex ) {
         if (songInfo.playSongIndex < songInfo.OMSongs.count) {
             OMHotSongInfo *info = songInfo.OMSongs[ musicPlayer.playingIndex];
-            NSLog(@"即将播放下一首歌曲: 《%@》", info.title);
+            DLog(@"即将播放下一首歌曲: 《%@》", info.title);
             [songInfo setSongInfo:info];
             [songInfo getSelectedSong:info.song_id index:songInfo.playSongIndex + 1];
             
@@ -246,7 +246,7 @@ int lrcIndex = 0;
     if ( musicPlayer.playingIndex != songInfo.playSongIndex ) {
         if (songInfo.playSongIndex > 0) {
             OMHotSongInfo *info = songInfo.OMSongs[songInfo.playSongIndex - 1];
-            NSLog(@"即将播放上一首歌曲: 《%@》", info.title);
+            DLog(@"即将播放上一首歌曲: 《%@》", info.title);
             [songInfo setSongInfo:info];
             [songInfo getSelectedSong:info.song_id index:songInfo.playSongIndex - 1];
         }
@@ -259,7 +259,7 @@ int lrcIndex = 0;
 
 #pragma - mark 歌曲列表
 -(void) songListButtonAction {
-    NSLog(@"你按下了songList按键！");
+    DLog(@"你按下了songList按键！");
     
     // 设置播放模式
     [_songListView setPlayModeButtonState];

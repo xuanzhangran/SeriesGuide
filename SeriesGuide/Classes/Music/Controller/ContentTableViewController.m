@@ -186,7 +186,7 @@ static NSString *PlaceholderCellIdentifier = @"PlaceholderCell";
         }
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-         NSLog(@"error--%@",error);
+         DLog(@"error--%@",error);
     }];
     
 }
@@ -339,7 +339,7 @@ static NSString *PlaceholderCellIdentifier = @"PlaceholderCell";
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     OMHotSongInfo *info = (self.arrayList)[indexPath.row];
-    NSLog(@"你选择了《%@》这首歌", info.title);
+    DLog(@"你选择了《%@》这首歌", info.title);
     [songInfo setSongInfo:info];
     [songInfo getSelectedSong:info.song_id index:indexPath.row];
 }

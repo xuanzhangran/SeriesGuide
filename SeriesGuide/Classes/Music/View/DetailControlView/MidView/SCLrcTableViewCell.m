@@ -90,7 +90,7 @@ AnimationType *animationType = translation;
             animatio1.toValue = [NSNumber numberWithFloat:1.2]; // 结束时的倍率
             [self.layer addAnimation:animatio1 forKey:@"scale-layer"];
             
-//            NSLog(@"scaleAlways");
+//            DLog(@"scaleAlways");
 //            CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"transform.rotation.z"];
 //            animation.values = [NSArray arrayWithObjects:[NSNumber numberWithDouble:(-1 / 6 * M_PI)], [NSNumber numberWithDouble:0], [NSNumber numberWithDouble:(1 / 6 * M_PI)], [NSNumber numberWithDouble:0], nil];
 //        

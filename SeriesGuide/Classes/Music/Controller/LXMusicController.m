@@ -72,10 +72,9 @@ OMSongInfo *songInfo;
     [self.view addSubview:_playControllerView];
     
     [_playControllerView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.view.mas_bottom).with.offset(0);
+        make.bottom.equalTo(self.view.mas_bottom).with.offset(-iPhoneX_Add_Bottom-TabBar_Height);
         make.left.equalTo(self.view.mas_left).with.offset(0);
         make.right.equalTo(self.view.mas_right).with.offset(0);
-        make.width.mas_equalTo(CGRectGetWidth(self.view.frame));
         make.height.mas_equalTo(CGRectGetHeight(self.view.frame) * 0.08);
     }];
     
@@ -253,7 +252,7 @@ OMSongInfo *songInfo;
     likeCommand.enabled = YES;
     likeCommand.localizedTitle = @"喜欢";
     [likeCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
-        NSLog(@"喜欢");
+        DLog(@"喜欢");
         return MPRemoteCommandHandlerStatusSuccess;
     }];
     
@@ -262,7 +261,7 @@ OMSongInfo *songInfo;
     dislikeCommand.enabled = YES;
     dislikeCommand.localizedTitle = @"下一首";
     [dislikeCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
-        NSLog(@"下一首");
+        DLog(@"下一首");
         [self nextButtonAction:nil];
         return MPRemoteCommandHandlerStatusSuccess;
     }];
@@ -272,7 +271,7 @@ OMSongInfo *songInfo;
     bookmarkCommand.enabled = YES;
     bookmarkCommand.localizedTitle = @"标记";
     [bookmarkCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
-        NSLog(@"标记");
+        DLog(@"标记");
         
         return MPRemoteCommandHandlerStatusSuccess;
     }];
@@ -291,13 +290,13 @@ OMSongInfo *songInfo;
     
     // 远程控制上一曲
     [commandCenter.previousTrackCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
-        NSLog(@"上一曲");
+        DLog(@"上一曲");
         return MPRemoteCommandHandlerStatusSuccess;
     }];
     
     // 远程控制下一曲
     [commandCenter.nextTrackCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
-        NSLog(@"下一曲");
+        DLog(@"下一曲");
         [self nextButtonAction:nil];
         return MPRemoteCommandHandlerStatusSuccess;
     }];
@@ -309,7 +308,7 @@ OMSongInfo *songInfo;
     skipBackwardIntervalCommand.enabled = YES;
     [skipBackwardIntervalCommand addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
         
-        NSLog(@"你按了快进按键！");
+        DLog(@"你按了快进按键！");
         
         // 歌曲总时间
         CMTime duration = musicPlayer.play.currentItem.asset.duration;
@@ -388,14 +387,14 @@ OMSongInfo *songInfo;
 {
     //Check the type of notification, especially if you are sending multiple AVAudioSession events here
     if ([notification.name isEqualToString:AVAudioSessionInterruptionNotification]) {
-        NSLog(@"Interruption notification received!");
+        DLog(@"Interruption notification received!");
         
         //Check to see if it was a Begin interruption
         if ([[notification.userInfo valueForKey:AVAudioSessionInterruptionTypeKey] isEqualToNumber:[NSNumber numberWithInt:AVAudioSessionInterruptionTypeBegan]]) {
-            NSLog(@"Interruption began!");
+            DLog(@"Interruption began!");
             [musicPlayer stopPlay];
         } else {
-            NSLog(@"Interruption ended!");
+            DLog(@"Interruption ended!");
             //Resume your audio
             [musicPlayer startPlay];
         }
@@ -408,13 +407,13 @@ OMSongInfo *songInfo;
     [_currentPlaySongImage startRotating];
     
     if (musicPlayer.play.rate == 1) {
-        NSLog(@"播放！");
+        DLog(@"播放！");
         [_playAndPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_play"] forState:UIControlStateNormal];
         [_playAndPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_play_prs"] forState:UIControlStateHighlighted];
         [_currentPlaySongImage resumeRotate];
         
     } else {
-        NSLog(@"暂停");
+        DLog(@"暂停");
         [_playAndPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_pause"] forState:UIControlStateNormal];
         [_playAndPauseButton setImage:[UIImage imageNamed:@"cm2_fm_btn_pause_prs"] forState:UIControlStateHighlighted];
         [_currentPlaySongImage stopRotating];
@@ -470,7 +469,7 @@ OMSongInfo *songInfo;
     _playerTimeObserver = [musicPlayer.play addPeriodicTimeObserverForInterval:CMTimeMake(1.0, 1.0) queue:dispatch_get_main_queue() usingBlock:^(CMTime time) {
         
         CGFloat currentTime = CMTimeGetSeconds(time);
-        NSLog(@"当前播放时间：%f", currentTime);
+        DLog(@"当前播放时间：%f", currentTime);
         
         CMTime total = musicPlayer.play.currentItem.duration;
         CGFloat totalTime = CMTimeGetSeconds(total);
@@ -549,7 +548,7 @@ OMSongInfo *songInfo;
         notify_get_state(lightToken, &screenLight);
         
         BOOL isShowLyricsPoster = NO;
-        // NSLog(@"screenLight=%llu locked=%llu",screenLight,locked);
+        // DLog(@"screenLight=%llu locked=%llu",screenLight,locked);
         if (screenLight == 0 && locked == 1) {
             //点亮且锁屏时
             isShowLyricsPoster = YES;
@@ -617,7 +616,7 @@ OMSongInfo *songInfo;
 #pragma mark - 播放或暂停
 -(void)playAndPauseButtonAction: (UIButton *)sender {
     
-    NSLog(@"当前播放曲目：%@", songInfo.title);
+    DLog(@"当前播放曲目：%@", songInfo.title);
     
     if (musicPlayer.play.rate == 0) {
         
@@ -640,12 +639,12 @@ OMSongInfo *songInfo;
     
     if (songInfo.playSongIndex < songInfo.OMSongs.count - 1) {
         OMHotSongInfo *info = songInfo.OMSongs[songInfo.playSongIndex + 1];
-        NSLog(@"即将播放下一首歌曲: 《%@》", info.title);
+        DLog(@"即将播放下一首歌曲: 《%@》", info.title);
         [songInfo setSongInfo:info];
         [songInfo getSelectedSong:info.song_id index:songInfo.playSongIndex + 1];
     } else {
         OMHotSongInfo *info = songInfo.OMSongs[0];
-        NSLog(@"即将播放下一首歌曲: 《%@》", info.title);
+        DLog(@"即将播放下一首歌曲: 《%@》", info.title);
         [songInfo setSongInfo:info];
         [songInfo getSelectedSong:info.song_id index:0];
     }
@@ -655,7 +654,7 @@ OMSongInfo *songInfo;
 #pragma mark - 歌曲播放结束操作
 -(void) finishedPlaying {
     
-    NSLog(@"本歌曲播放结束，准备播放下一首歌曲！");
+    DLog(@"本歌曲播放结束，准备播放下一首歌曲！");
     //    songInfo.playSongIndex = songInfo.playSongIndex + 1;
     [self nextButtonAction:nil];
 }
