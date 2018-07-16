@@ -21,7 +21,7 @@
     // 创建请求管理者
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
     mgr.requestSerializer.timeoutInterval = 30;
-    mgr.requestSerializer = [AFJSONRequestSerializer serializer];
+    mgr.requestSerializer = [AFHTTPRequestSerializer serializer];
     
     //清除头部赋值
     [mgr.requestSerializer clearAuthorizationHeader];
@@ -57,7 +57,7 @@
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
     //设置超时时间
     mgr.requestSerializer.timeoutInterval = 30;
-    mgr.requestSerializer = [AFJSONRequestSerializer serializer];
+    mgr.requestSerializer = [AFHTTPRequestSerializer serializer];
     //清除头部赋值
     [mgr.requestSerializer clearAuthorizationHeader];
     
@@ -92,7 +92,7 @@
     // 创建请求管理者
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
     mgr.requestSerializer.timeoutInterval = 30;
-    mgr.requestSerializer = [AFJSONRequestSerializer serializer];
+    mgr.requestSerializer = [AFHTTPRequestSerializer serializer];
     
     //清除头部赋值
     [mgr.requestSerializer clearAuthorizationHeader];
@@ -130,7 +130,7 @@
     // 创建请求管理者
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
     mgr.requestSerializer.timeoutInterval = 30;
-    mgr.requestSerializer = [AFJSONRequestSerializer serializer];
+    mgr.requestSerializer = [AFHTTPRequestSerializer serializer];
     
     //清除头部赋值
     [mgr.requestSerializer clearAuthorizationHeader];
