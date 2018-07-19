@@ -51,7 +51,6 @@ static NSString *PlaceholderCellIdentifier = @"PlaceholderCell";
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark --private Method--设置tableView
@@ -60,7 +59,6 @@ static NSString *PlaceholderCellIdentifier = @"PlaceholderCell";
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(104, 0, 0, 0);
 }
-
 
 #pragma mark --private Method--初始化刷新控件
 -(void)setupRefresh {

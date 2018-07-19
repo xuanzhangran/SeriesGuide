@@ -17,5 +17,8 @@
 
 #import <MJExtension/MJExtension.h>
 #import <Masonry/Masonry.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
+#import "UIView+Extension.h"
 
 #endif /* PrefixHeader_pch */

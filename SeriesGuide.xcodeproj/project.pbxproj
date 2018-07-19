@@ -627,8 +627,6 @@
 				13AA048820E36CCB001AAEEF /* UIButton+EnlargeArea.h */,
 				13AA048920E36CCB001AAEEF /* UIColor+BFKit.h */,
 				13AA048A20E36CCB001AAEEF /* UIBarButtonItem+Extention.h */,
-				13AA048B20E36CCB001AAEEF /* UIView+Frame.m */,
-				13AA048C20E36CCB001AAEEF /* UIView+Extension.h */,
 				13AA048D20E36CCB001AAEEF /* UIButton+Extension.h */,
 				13AA048E20E36CCB001AAEEF /* UIImage+Extension.m */,
 				13AA048F20E36CCB001AAEEF /* UIButton+EnlargeArea.m */,
@@ -637,6 +635,8 @@
 				13AA049220E36CCB001AAEEF /* UIImage+Extension.h */,
 				13AA049320E36CCB001AAEEF /* UIButton+Extension.m */,
 				13AA049420E36CCB001AAEEF /* UIView+Frame.h */,
+				13AA048B20E36CCB001AAEEF /* UIView+Frame.m */,
+				13AA048C20E36CCB001AAEEF /* UIView+Extension.h */,
 				13AA049520E36CCB001AAEEF /* UIView+Extension.m */,
 			);
 			path = Category;
