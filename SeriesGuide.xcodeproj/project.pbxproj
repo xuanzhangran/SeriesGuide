@@ -68,6 +68,8 @@
 		13AA04B220E3715C001AAEEF /* LXInterestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B120E3715C001AAEEF /* LXInterestController.m */; };
 		13AA04B920E371D8001AAEEF /* LXHotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA04B820E371D8001AAEEF /* LXHotController.m */; };
 		13AA052720E39419001AAEEF /* LXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA052520E39418001AAEEF /* LXConst.m */; };
+		13CFA10421002CB700EBB4B4 /* LXHotHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CFA10321002CB700EBB4B4 /* LXHotHeaderView.m */; };
+		13CFA10621002CC800EBB4B4 /* LXHotHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CFA10521002CC800EBB4B4 /* LXHotHeaderView.xib */; };
 		9EC79ABBC3E95972A957D2AC /* libPods-SeriesGuide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 178ACDAA3AB416582A8E354F /* libPods-SeriesGuide.a */; };
 /* End PBXBuildFile section */
 
@@ -194,6 +196,9 @@
 		13AA052520E39418001AAEEF /* LXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXConst.m; sourceTree = "<group>"; };
 		13AA052620E39419001AAEEF /* LXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXConst.h; sourceTree = "<group>"; };
 		13AA052820E39453001AAEEF /* LXThemeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXThemeDefine.h; sourceTree = "<group>"; };
+		13CFA10221002CB700EBB4B4 /* LXHotHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHotHeaderView.h; sourceTree = "<group>"; };
+		13CFA10321002CB700EBB4B4 /* LXHotHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHotHeaderView.m; sourceTree = "<group>"; };
+		13CFA10521002CC800EBB4B4 /* LXHotHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LXHotHeaderView.xib; sourceTree = "<group>"; };
 		178ACDAA3AB416582A8E354F /* libPods-SeriesGuide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeriesGuide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC949AA2020A2A5AF862E6B /* Pods-SeriesGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeriesGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeriesGuide/Pods-SeriesGuide.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -727,6 +732,9 @@
 		13AA04B620E371CD001AAEEF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				13CFA10221002CB700EBB4B4 /* LXHotHeaderView.h */,
+				13CFA10321002CB700EBB4B4 /* LXHotHeaderView.m */,
+				13CFA10521002CC800EBB4B4 /* LXHotHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -815,6 +823,7 @@
 			files = (
 				13AA045620E35FCD001AAEEF /* LaunchScreen.storyboard in Resources */,
 				13AA045320E35FCD001AAEEF /* Assets.xcassets in Resources */,
+				13CFA10621002CC800EBB4B4 /* LXHotHeaderView.xib in Resources */,
 				1340478120F304590072B595 /* LXHomeCompanyCell.xib in Resources */,
 				13AA046E20E369CC001AAEEF /* Info.plist in Resources */,
 			);
@@ -887,6 +896,7 @@
 				13AA04AB20E370D1001AAEEF /* LXMineController.m in Sources */,
 				13AA052720E39419001AAEEF /* LXConst.m in Sources */,
 				135839C820FC77A100EFC3B6 /* TTTopChannelContianerView.m in Sources */,
+				13CFA10421002CB700EBB4B4 /* LXHotHeaderView.m in Sources */,
 				134054A120E471C000985CC7 /* LXBaseTableViewPlainController.m in Sources */,
 				134054DD20E4C3C100985CC7 /* LXSecondController.m in Sources */,
 				13AA04A520E36EE0001AAEEF /* AppDelegate.m in Sources */,

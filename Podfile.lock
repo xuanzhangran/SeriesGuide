@@ -25,13 +25,7 @@ PODS:
   - MBProgressHUD (1.0.0)
   - MJExtension (3.0.15.1)
   - MJRefresh (3.1.15.3)
-  - ReactiveCocoa (2.5):
-    - ReactiveCocoa/UI (= 2.5)
-  - ReactiveCocoa/Core (2.5):
-    - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.5)
-  - ReactiveCocoa/UI (2.5):
-    - ReactiveCocoa/Core
+  - ReactiveObjC (3.1.0)
   - SAMKeychain (1.5.3)
   - SDCycleScrollView (1.75):
     - SDWebImage (>= 4.0.0)
@@ -64,7 +58,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 1.0.0)
   - MJExtension (~> 3.0.13)
   - MJRefresh (~> 3.1.12)
-  - ReactiveCocoa (~> 2.5.0)
+  - ReactiveObjC
   - SAMKeychain
   - SDCycleScrollView (~> 1.75)
   - SDWebImage (~> 4.1.0)
@@ -89,7 +83,7 @@ SPEC REPOS:
     - MBProgressHUD
     - MJExtension
     - MJRefresh
-    - ReactiveCocoa
+    - ReactiveObjC
     - SAMKeychain
     - SDCycleScrollView
     - SDWebImage
@@ -111,7 +105,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
-  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
@@ -122,6 +116,6 @@ SPEC CHECKSUMS:
   WYChart: 7523ef7395b4f4c8c88415bf0dd4f8d27a7757ce
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 1727ef667ef5747adad69786f0f8c938382b0bc0
+PODFILE CHECKSUM: 17b6ea97da1d4f56928dacc7667772db3bb151f8
 
 COCOAPODS: 1.5.3
