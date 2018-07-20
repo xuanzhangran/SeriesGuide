@@ -29,4 +29,11 @@
     self.headerView.frame = CGRectMake(0, 0, SCREEN_WIDTH, 300);
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    if (self.subject) {
+        [self.subject sendNext:@"什么广东省郭德纲"];
+    }
+}
+
 @end

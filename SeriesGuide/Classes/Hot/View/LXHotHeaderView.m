@@ -31,14 +31,7 @@
     
     self.backgroundColor = LXColorRandom;
     
-//    @weakify(self);
-    [self.testF.rac_textSignal subscribeNext:^(NSString *value) {
-//        @strongify(self);
-        
-        DLog(@"%@",value);
-        
-        
-    }];
+    self.testF.backgroundColor = LXColorRandom;
 }
 
 @end
